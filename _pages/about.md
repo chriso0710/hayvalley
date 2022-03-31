@@ -21,7 +21,7 @@ If you would like to know more about me and my skills just drop me a line.
 
 ## Stats
 
-* 20+ years experience in IT
+* 25+ years experience in IT
 * 280 customers of own software product in healthcare
 * 150.000+ pages CMS managed and operated
 * 1 product killed before launch
@@ -30,6 +30,6 @@ If you would like to know more about me and my skills just drop me a line.
 * Dozens of presentations, workshops and talks made
 * 5 publications in professional journals
 * 3.5, relase since working with TYPO3
-* 2009, year since working with AWS/heroku
+* 2009, year since working with cloud, AWS, heroku
 * 4 marathons and half marathons run
-* 8000+ km on the bicycle per year
+* 10000 km on the bicycle per year

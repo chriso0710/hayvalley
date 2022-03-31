@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-ruby "2.2.1"
+ruby "2.6.9"
 
 gem "jekyll"
-# gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_pluginsbund
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
