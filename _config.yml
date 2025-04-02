@@ -160,6 +160,12 @@ footer:
       # url:
 
 
+footer_scripts:
+  - /assets/js/main.min.js
+  - /assets/js/typed.min.js
+  - /assets/js/biotyped.js
+
+
 # Reading Files
 include:
   - .htaccess
