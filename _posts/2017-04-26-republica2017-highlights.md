@@ -1,6 +1,5 @@
 ---
 title: My re:publica 2017 highlights
-permalink: /republica2017
 ---
 
 ![Picture](/assets/images/rp16.jpg)
