@@ -67,7 +67,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -113,52 +113,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Christian Ott"
-  avatar           : /assets/images/co.jpg
-  bio              : Developer, Consultant, Geek, REWORKer, Cyclist, Minimalist, Guitar apprentice, Father of two girls
-  location         : "Breisgau, Germany"
+  name             : Christian Ott
+  avatar           : /assets/images/co2.jpg
+  bio              : Software Developer, Consultant, Allround-Geek, REWORKer, Cyclist, Minimalist, Climate activist, Food lover, Husband, Father of two girls
+  location         : Breisgau, Germany
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:co@hayvalley.io"
+      url: "mailto:co@hayvalley.de"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hayvalley-christian-ott/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chriso0710"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/christian-ott-7b0b3b1b/"
     - label: "Strava"
       icon: "fab fa-fw fa-strava"
-      url: "https://www.strava.com/athletes/1980735"
+      url: "https://www.strava.com/athletes/4877153"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/chrisohayvalley/"
     - label: "Bluesky"
-      icon: "fas fa-fw fa-cloud-sun"
-      url: "https://bluesky.chriso0710.com"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/chrisohayvalley.bsky.social"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
 
 footer_scripts:
   - /assets/js/main.min.js
@@ -327,7 +308,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -336,3 +317,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: false
+
+collections:
+  # _portfolio
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
