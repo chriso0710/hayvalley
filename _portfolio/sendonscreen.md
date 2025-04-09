@@ -4,6 +4,7 @@ excerpt: Interactive participant engagement at conferences and events
 header:
   image: /assets/images/projects/sendonscreen.jpg
   teaser: /assets/images/projects/sendonscreen.jpg
+  caption: "Photo credit: Unsplash"
 sidebar:
   - title: "Client"
     text: "Carl Group"

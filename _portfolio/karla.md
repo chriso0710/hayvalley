@@ -4,6 +4,7 @@ excerpt: Tracking and monitoring concession contracts
 header:
   image: /assets/images/projects/eon.jpg
   teaser: /assets/images/projects/eon.jpg
+  caption: "Photo credit: Unsplash"
 sidebar:
   - title: "Client"
     text: "E.ON / SH NETZ"

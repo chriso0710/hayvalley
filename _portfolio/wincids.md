@@ -4,6 +4,7 @@ excerpt: Market-leading software for schools in healthcare professions
 header:
   image: /assets/images/projects/wincids.jpg
   teaser: /assets/images/projects/wincids.jpg
+  caption: "Photo credit: Unsplash"
 sidebar:
   - title: "Client"
     text: "OTT BENDER PARTNER"

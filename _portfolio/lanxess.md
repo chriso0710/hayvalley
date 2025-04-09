@@ -4,6 +4,7 @@ excerpt: One of the world’s largest TYPO3 installations
 header:
   image: /assets/images/projects/lanxess.jpg
   teaser: /assets/images/projects/lanxess.jpg
+  caption: "Photo credit: Unsplash"
 sidebar:
   - title: "Client"
     text: "LANXESS, EDIT GmbH"

@@ -25,7 +25,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .initial-content,
@@ -73,7 +73,7 @@ body {
     text-decoration: none;
   }
 
-  & + .page__meta {
+  &+.page__meta {
     margin-top: -0.5em;
   }
 }
@@ -89,22 +89,27 @@ body {
     border-bottom: 1px solid $border-color;
   }
 
-	h1, h2, h3, h4, h5, h6 {
-		.header-link {
-			position: relative;
-			inset-inline-start: 0.5em;
-			opacity: 0;
-			font-size: 0.8em;
-			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
-			-moz-transition: opacity 0.2s ease-in-out 0.1s;
-			-o-transition: opacity 0.2s ease-in-out 0.1s;
-			transition: opacity 0.2s ease-in-out 0.1s;
-		}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    .header-link {
+      position: relative;
+      inset-inline-start: 0.5em;
+      opacity: 0;
+      font-size: 0.8em;
+      -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+      -moz-transition: opacity 0.2s ease-in-out 0.1s;
+      -o-transition: opacity 0.2s ease-in-out 0.1s;
+      transition: opacity 0.2s ease-in-out 0.1s;
+    }
 
-		&:hover .header-link {
-			opacity: 1;
-		}
-	}
+    &:hover .header-link {
+      opacity: 1;
+    }
+  }
 
   p,
   li,
@@ -117,8 +122,8 @@ body {
     margin: 0 0 $indent-var;
 
     /* sibling indentation*/
-    @if $paragraph-indent == true {
-      & + p {
+    @if $paragraph-indent ==true {
+      &+p {
         text-indent: $indent-var;
         margin-top: -($indent-var);
       }
@@ -135,7 +140,7 @@ body {
     }
   }
 
-  :not(pre) > code {
+  :not(pre)>code {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     font-size: 0.8em;
@@ -145,7 +150,8 @@ body {
     &::before,
     &::after {
       letter-spacing: -0.2em;
-      content: "\00a0"; /* non-breaking space*/
+      content: "\00a0";
+      /* non-breaking space*/
     }
   }
 
@@ -166,7 +172,7 @@ body {
   }
 
   /* blockquote citations */
-  blockquote + .small {
+  blockquote+.small {
     margin-top: -1.5em;
     padding-inline-start: 1.25rem;
   }
@@ -230,8 +236,13 @@ body {
 
 .page__hero-image {
   width: 100%;
-  height: auto;
+  /* Nimmt die gesamte Seitenbreite ein */
+  height: 40vh;
+  /* 80% der Höhe des Viewports */
+  object-fit: cover;
+  /* Schneidet das Bild zu, um es proportional zu skalieren */
   -ms-interpolation-mode: bicubic;
+  /* Für ältere IE-Versionen */
 }
 
 .page__hero-caption {
@@ -364,7 +375,7 @@ body {
     border: 0;
   }
 
-  + .taxonomy__section {
+  +.taxonomy__section {
     margin-top: 2em;
   }
 }
@@ -440,6 +451,7 @@ body {
   transition: $global-transition;
 
   &.disabled {
+
     input,
     button,
     textarea,
@@ -549,7 +561,9 @@ body {
    ========================================================================== */
 
 .wide {
-  .page, .page__related {
+
+  .page,
+  .page__related {
     @include breakpoint($large) {
       padding-inline-end: 0;
     }

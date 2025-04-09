@@ -4,8 +4,8 @@ toc: true
 toc_sticky: true
 toc_label: CV
 header:
-  image: /assets/images/napabanner1920.jpg
-  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+  image: /assets/images/blackforest.jpg
+  caption: "Photo credit: Israel Ferrera - Unsplash"
 gallery:
   - image_path: /assets/images/projects/sendonscreen.jpg
     alt: "SendOnScreen"
@@ -27,7 +27,7 @@ gallery:
 > When we are exploring the world from a place of discomfort, that is usually when we will be learning the most.
 <cite>@TheMinimalists</cite>{: .small}
 
-Hey, I'm Christian – software developer, consultant, cyclist, and proud dad. I love solving problems, building great software, and making the world a little better along the way.
+Hey, I'm Christian – Software Developer, Consultant, Allround-Geek, REWORKer, Cyclist, Minimalist, Climate advocate, Food lover, Father of two girls. I love solving problems, building great software, and making the world a little better along the way.
 
 ## Professional Expertise
 
@@ -128,9 +128,9 @@ Strategy, fullstack development, cloud migration, hosting, content management, m
 
 I love living simply and enjoy hobbies like photography, cooking, playing guitar, music. Traveling is a big passion of mine, and I prefer trains over planes to keep it sustainable. Being outdoors is where I feel most at home – whether it’s cycling long distances, hiking, or climbing, I’m always up for an adventure.
 
-What’s most important to me? My family, protecting the climate, and pushing for renewable energy and greener ways to get around.
+What’s most important to me? My family, protecting the climate, and pushing for renewable energy, good cycling infrastructure and greener ways to get around.
 
-What drives me crazy? Unreliability, bad time management, and SUVs.
+What frustrates me? Unreliability, poor time management, and oversized cars.
 
 * Sponsor at [Plan International Germany e.V](https://www.plan.de/).
 * Board member of the non-profit organization [Bürgerrunde Heuweiler e.V.](https://buergerrunde.heuweiler.net/)
