@@ -5,7 +5,7 @@ permalink: /legal
 Christian Ott
 Am Flissert 6
 79194 Heuweiler - DE
-eMail: co(at)hayvalley(dot)d
+eMail: co(at)hayvalley(dot)de
 Telefon: <span id="phone"></span>
 
 Umsatzsteuer-ID:

@@ -43,8 +43,9 @@ I bring deep expertise across a wide range of technologies and methodologies:
 * Web and cloud infrastructure, including API-driven systems (REST, GraphQL), scalable web apps (SPA, serverless, PaaS/SaaS), Linux environments, containerization, and cloud platforms.
 * Programming in Ruby, JavaScript, and Python, with extensive experience in modern frameworks and relational/non-relational databases. Developing with Ruby and Rails since Version 3 (2012).
 * Open-source tools and frameworks, ensuring high-quality, flexible, and scalable solutions through transparent and community-driven resources.
-* AI and conversational interfaces, including chatbot development, AI-based API integration, and work with open-source language models, orchestration frameworks, and local inference runtimes.
+* AI and conversational interfaces, including chatbot development, AI-based API integration, MCP, open-source language models, orchestration frameworks, and local inference runtimes.
 * APIs and libraries for social media integration, payment processing, translation, mapping & geolocation, data visualization/animation, authentication & security, background processing, and modern frontend/backend frameworks.
+* No-code/low-code platforms and workflow automation tools such as n8n, flowise, and similar solutions for rapid prototyping and business process automation.
 * Tools and platforms for version control, automated testing, CI/CD, performance monitoring, CMS & static site generation, DevOps & infrastructure, logging, team collaboration, and code quality assurance.
 
 I am highly self-motivated and organized, with a strong focus on clear communication and well-structured documentation. I approach projects with initiative, discipline, and a drive to create maintainable, transparent solutions that support both teams and long-term goals.
