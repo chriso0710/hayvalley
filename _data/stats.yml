@@ -1,0 +1,15 @@
+- icon: fas fa-face-smile
+  value: 256
+  label: "Happy Clients"
+
+- icon: fas fa-trophy
+  value: 145
+  label: "Awards Won"
+
+- icon: fas fa-briefcase
+  value: 587
+  label: "Projects Done"
+
+- icon: fas fa-mug-hot
+  value: 4500
+  label: "Coffee Cups"

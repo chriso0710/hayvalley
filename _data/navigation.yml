@@ -1,0 +1,16 @@
+- title: Home
+  url: "/#home"
+- title: About
+  url: "/#about"
+- title: Resume
+  url: "/#resume"
+- title: Services
+  url: "/#services"
+- title: Portfolio
+  url: "/#portfolio"
+- title: Testimonials
+  url: "/#testimonials"
+# - title: Blog
+#   url: "/#blog"
+- title: Contact
+  url: "/#contact"

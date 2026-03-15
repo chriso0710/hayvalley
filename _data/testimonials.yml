@@ -1,0 +1,11 @@
+- name: "John Smith"
+  role: "CEO, Company Inc."
+  text: "Working with Alex was an incredible experience. The attention to detail and creative vision brought our project to life in ways we hadn't imagined. Highly recommended!"
+
+- name: "Sarah Johnson"
+  role: "Marketing Director"
+  text: "Alex delivered exceptional work on our website redesign. The user experience improvements led to a 40% increase in engagement. Truly talented designer."
+
+- name: "Michael Brown"
+  role: "Startup Founder"
+  text: "From concept to completion, Alex demonstrated outstanding professionalism and creativity. Our app's design has received numerous compliments from users."

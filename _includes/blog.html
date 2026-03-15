@@ -1,0 +1,40 @@
+<section id="blog" class="section blog-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h6 class="section-subtitle">{{ site.sections.blog.subtitle }}</h6>
+        <h2 class="section-title">{{ site.sections.blog.title }}</h2>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="carousel blog-carousel">
+          <div class="carousel-track">
+            {% for post in site.posts limit: site.blog_limit %}
+            <div class="carousel-slide">
+              <div class="blog-card">
+                {% if post.image %}
+                <div class="blog-card-image">
+                  <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+                </div>
+                {% endif %}
+                <div class="blog-card-content">
+                  <div class="blog-card-meta">
+                    <span class="blog-date">{{ post.date | date: "%b %d, %Y" }}</span>
+                    {% if post.tag %}
+                    <span class="blog-tag">{{ post.tag }}</span>
+                    {% endif %}
+                  </div>
+                  <h5 class="blog-card-title">{{ post.title }}</h5>
+                  <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="carousel-dots"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

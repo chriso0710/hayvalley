@@ -1,0 +1,23 @@
+- icon: fas fa-laptop-code
+  title: Web Development
+  description: "Creating responsive and modern web applications using the latest technologies and best practices."
+
+- icon: fas fa-wrench
+  title: App Development
+  description: "Building native and cross-platform mobile applications that deliver exceptional user experiences."
+
+- icon: fas fa-paintbrush
+  title: UI/UX Design
+  description: "Designing intuitive and visually appealing interfaces that users love to interact with."
+
+- icon: fas fa-mobile-screen
+  title: Responsive Design
+  description: "Ensuring your website looks and works perfectly across all devices and screen sizes."
+
+- icon: fas fa-camera
+  title: Photography
+  description: "Professional photography services for products, portraits, and creative projects."
+
+- icon: fas fa-comments
+  title: Marketing
+  description: "Strategic digital marketing solutions to grow your brand and reach your target audience."

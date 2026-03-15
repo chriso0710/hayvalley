@@ -1,0 +1,21 @@
+<section id="home" class="hero-section" style="background-image: url('{{ site.hero_bg }}')">
+  <div class="hero-overlay"></div>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center justify-content-center text-center">
+      <div class="col-lg-8">
+        <h6 class="hero-subtitle">{{ site.tagline }}</h6>
+        <h1 class="hero-title">
+          I'm <span class="animated-headline" data-headlines='{{ site.headlines | jsonify }}'>{{ site.headlines | first }}</span><span class="typewriter-cursor">|</span>
+        </h1>
+        <div class="hero-socials">
+          {% for social in site.data.social %}
+          <a href="{{ social.url }}" aria-label="{{ social.platform }}"><i class="{{ social.icon }}"></i></a>
+          {% endfor %}
+        </div>
+        <a href="#about" class="hero-scroll-btn" aria-label="Scroll down">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

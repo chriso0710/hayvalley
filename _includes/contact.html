@@ -1,0 +1,61 @@
+<section id="contact" class="section contact-section" style="background-image: url('{{ site.contact_bg }}')">
+  <div class="contact-overlay"></div>
+  <div class="container position-relative">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h6 class="section-subtitle">{{ site.sections.contact.subtitle }}</h6>
+        <h2 class="section-title">{{ site.sections.contact.title }}</h2>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h6>{{ site.sections.contact.address_label }}</h6>
+              <p>{{ site.address }}</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h6>{{ site.sections.contact.email_label }}</h6>
+              <p>{{ site.email }}</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h6>{{ site.sections.contact.phone_label }}</h6>
+              <p>{{ site.phone }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="d-none">
+            <label>Don't fill this out: <input name="bot-field"></label>
+          </p>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <input type="text" name="name" class="form-control" placeholder="{{ site.sections.contact.name_placeholder }}" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <input type="email" name="email" class="form-control" placeholder="{{ site.sections.contact.email_placeholder }}" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <input type="text" name="subject" class="form-control" placeholder="{{ site.sections.contact.subject_placeholder }}" required>
+          </div>
+          <div class="mb-3">
+            <textarea name="message" class="form-control" rows="5" placeholder="{{ site.sections.contact.message_placeholder }}" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">{{ site.sections.contact.submit }}</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

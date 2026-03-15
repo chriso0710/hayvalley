@@ -1,0 +1,99 @@
+title: "Personala"
+description: "Personal Portfolio Website"
+url: ""
+baseurl: ""
+
+# Personal Info
+name: "Alex Smith"
+role: "UI / UX Designer"
+tagline: "I Love To Design"
+headlines:
+  - "Alex Smith"
+  - "a Developer"
+  - "a Designer"
+about_text: "I'm a Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs."
+about_text_2: "My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way."
+email: "alex@example.com"
+phone: "+1 234 567 890"
+address: "Sydney, Australia"
+cv_file: "/assets/cv.pdf"
+
+# Images
+hero_bg: "/assets/img/hero-bg.jpg"
+about_image: "/assets/img/hero.jpg"
+numbers_bg: "/assets/img/bg2.jpg"
+testimonials_bg: "/assets/img/bg3.jpg"
+contact_bg: "/assets/img/bg4.jpg"
+
+# Section headings (subtitle + title)
+sections:
+  about:
+    subtitle: "About Me"
+    title: ""  # uses site.name by default
+  resume:
+    subtitle: "Resume"
+    title: "Education & Experience"
+    education: "Education"
+    experience: "Experience"
+    skills: "Skills"
+  services:
+    subtitle: "Services"
+    title: "What I Do"
+  portfolio:
+    subtitle: "Portfolio"
+    title: "My Work"
+    filter_all: "All"
+    client_label: "Client"
+    task_label: "Task"
+    tech_label: "Tech"
+  testimonials:
+    subtitle: "Testimonials"
+    title: "What People Say"
+  blog:
+    subtitle: "Blog"
+    title: "Latest Articles"
+  contact:
+    subtitle: "Contact"
+    title: "Get In Touch"
+    address_label: "Address"
+    email_label: "Email"
+    phone_label: "Phone"
+    name_placeholder: "Your Name"
+    email_placeholder: "Your Email"
+    subject_placeholder: "Subject"
+    message_placeholder: "Your Message"
+    submit: "Send Message"
+
+# Button labels
+cv_button: "Download CV"
+
+# Footer
+footer_text: "All Rights Reserved."
+footer_links:
+  - title: "Impressum"
+    url: "/impressum/"
+  - title: "Datenschutz"
+    url: "/datenschutz/"
+
+# Display limits
+blog_limit: 4
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+timezone: Europe/Berlin
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Collections
+collections:
+  posts:
+    output: true

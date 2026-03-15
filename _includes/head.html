@@ -1,0 +1,45 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1f16">
+
+  <!-- SEO (title, description, og:, twitter:, canonical) -->
+  {% seo %}
+
+  <!-- Feed -->
+  {% feed_meta %}
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": {{ site.name | jsonify }},
+    "jobTitle": {{ site.role | jsonify }},
+    "url": {{ site.url | jsonify }},
+    "email": {{ site.email | jsonify }},
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": {{ site.address | jsonify }}
+    },
+    "sameAs": [{% for social in site.data.social %}{% unless social.url == "#" %}{{ social.url | jsonify }}{% unless forloop.last %},{% endunless %}{% endunless %}{% endfor %}]
+  }
+  </script>
+
+  <!-- Preload critical CSS -->
+  <link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}" as="style">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+</head>
