@@ -1,23 +1,23 @@
-- icon: fas fa-laptop-code
-  title: Web Development
-  description: "Creating responsive and modern web applications using the latest technologies and best practices."
+- icon: fas fa-gem
+  title: Software Development
+  description: "I transform ideas into fully functional web applications, streamline business processes, and automate workflows. Programming in Ruby, JavaScript, and Python, with extensive experience in modern frameworks and relational/non-relational databases."
 
-- icon: fas fa-wrench
-  title: App Development
-  description: "Building native and cross-platform mobile applications that deliver exceptional user experiences."
+- icon: fas fa-cloud
+  title: Cloud & DevOps
+  description: "Cloud computing, high-performance/availability hosting, and security. Web and cloud infrastructure, including API-driven systems (REST, GraphQL), scalable web apps (SPA, serverless, PaaS/SaaS), containerization, and cloud platforms."
 
-- icon: fas fa-paintbrush
-  title: UI/UX Design
-  description: "Designing intuitive and visually appealing interfaces that users love to interact with."
+- icon: fas fa-handshake
+  title: Consulting & Freelancing
+  description: "I offer remote consulting and development services, supporting teams with my expertise in coding, architecture, and problem-solving. Modern development paradigms such as remote-first workflows, agile methodologies, TDD, and CI/CD."
 
-- icon: fas fa-mobile-screen
-  title: Responsive Design
-  description: "Ensuring your website looks and works perfectly across all devices and screen sizes."
+- icon: fas fa-robot
+  title: AI Integration
+  description: "AI and conversational interfaces, including chatbot development, AI-based API integration, MCP, open-source language models, orchestration frameworks, and local inference runtimes."
 
-- icon: fas fa-camera
-  title: Photography
-  description: "Professional photography services for products, portraits, and creative projects."
+- icon: fas fa-rocket
+  title: Product Development
+  description: "I assist in developing MVPs and complete products, ensuring high-quality development aligned with best practices. Open-source tools and frameworks for flexible and scalable solutions."
 
-- icon: fas fa-comments
-  title: Marketing
-  description: "Strategic digital marketing solutions to grow your brand and reach your target audience."
+- icon: fas fa-cogs
+  title: Automation & No-Code
+  description: "No-code/low-code platforms and workflow automation tools such as n8n, flowise, and similar solutions for rapid prototyping and business process automation."

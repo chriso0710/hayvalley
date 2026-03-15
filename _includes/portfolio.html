@@ -27,14 +27,15 @@
         <div class="portfolio-card">
           <img src="{{ item.image }}" alt="{{ item.title }} — {{ item.category | capitalize }}" class="img-fluid" loading="lazy">
           <div class="portfolio-overlay">
-            <h5>{{ item.title }}</h5>
+            {% if item.description %}<p class="portfolio-overlay-desc">{{ item.description }}</p>{% endif %}
             <ul class="portfolio-details">
               {% if item.client %}<li><span>{{ site.sections.portfolio.client_label }}:</span> {{ item.client }}</li>{% endif %}
-              {% if item.task %}<li><span>{{ site.sections.portfolio.task_label }}:</span> {{ item.task }}</li>{% endif %}
+              {% if item.duration %}<li><span>{{ site.sections.portfolio.duration_label }}:</span> {{ item.duration }}</li>{% endif %}
               {% if item.tech %}<li><span>{{ site.sections.portfolio.tech_label }}:</span> {{ item.tech }}</li>{% endif %}
             </ul>
           </div>
         </div>
+        <h5 class="portfolio-title">{{ item.title }}</h5>
       </div>
       {% endfor %}
     </div>

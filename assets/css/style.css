@@ -468,23 +468,48 @@ img {
 
 .portfolio-overlay {
   position: absolute;
-  inset: 0;
-  background: color-mix(in srgb, var(--color-primary) 90%, transparent);
+  inset: 20px;
+  background: color-mix(in srgb, var(--color-bg) 92%, transparent);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  padding: 25px;
   opacity: 0;
+  border-radius: 3px;
   transition: opacity var(--transition);
+  overflow-y: auto;
 }
 
 .portfolio-card:hover .portfolio-overlay {
   opacity: 1;
 }
 
-.portfolio-overlay h5 {
-  font-size: 18px;
+.portfolio-overlay-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-text-light);
   margin-bottom: 15px;
+}
+
+.portfolio-title {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.clients-list {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  color: var(--color-text);
+  line-height: 2;
+  letter-spacing: 0.5px;
 }
 
 .portfolio-details {
@@ -508,6 +533,7 @@ img {
   font-weight: 700;
   margin-right: 5px;
 }
+
 
 /* ---- Testimonials Section ---- */
 .testimonials-section {

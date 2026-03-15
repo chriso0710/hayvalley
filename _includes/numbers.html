@@ -3,10 +3,10 @@
   <div class="container position-relative">
     <div class="row">
       {% for stat in site.data.stats %}
-      <div class="col-6 col-md-3 mb-4 mb-md-0">
+      <div class="col-6 col-md-3 mb-4">
         <div class="counter-item text-center">
           <i class="counter-icon {{ stat.icon }}"></i>
-          <h3 class="counter" data-target="{{ stat.value }}">0</h3>
+          <h3><span class="counter" data-target="{{ stat.value }}">0</span>{{ stat.suffix }}</h3>
           <p>{{ stat.label }}</p>
         </div>
       </div>

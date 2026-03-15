@@ -1,0 +1,17 @@
+{% if site.data.clients.size > 0 %}
+<section id="clients" class="section clients-section bg-dark-alt">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h6 class="section-subtitle">{{ site.sections.clients.subtitle }}</h6>
+        <h2 class="section-title">{{ site.sections.clients.title }}</h2>
+      </div>
+    </div>
+    <div class="row mt-4 justify-content-center">
+      <div class="col-lg-10 text-center">
+        <p class="clients-list">{{ site.data.clients | join: ", " }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

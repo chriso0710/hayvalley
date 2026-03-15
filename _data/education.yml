@@ -1,14 +1,4 @@
-- period: "2013 - 2015"
-  title: "Master's Degree"
-  institution: "University of Sydney"
-  description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart."
-
-- period: "2010 - 2013"
-  title: "Bachelor's Degree"
-  institution: "University of Melbourne"
-  description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart."
-
-- period: "2008 - 2010"
-  title: "High School"
-  institution: "Sydney Grammar School"
-  description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart."
+- period: "1985 – 1990"
+  title: "Computer Science Studies"
+  institution: "University of Applied Sciences Wedel"
+  description: "Degree: Diplom-Informatiker (equivalent to M.Sc.)"

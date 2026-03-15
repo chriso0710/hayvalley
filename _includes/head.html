@@ -17,14 +17,13 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": {{ site.name | jsonify }},
-    "jobTitle": {{ site.role | jsonify }},
+    "jobTitle": {{ site.data.about.role | jsonify }},
     "url": {{ site.url | jsonify }},
-    "email": {{ site.email | jsonify }},
     "address": {
       "@type": "PostalAddress",
       "addressLocality": {{ site.address | jsonify }}
     },
-    "sameAs": [{% for social in site.data.social %}{% unless social.url == "#" %}{{ social.url | jsonify }}{% unless forloop.last %},{% endunless %}{% endunless %}{% endfor %}]
+    "sameAs": [{% assign real_socials = site.data.social | where_exp: "s", "s.url != '#' and s.url != '#email'" %}{% for social in real_socials %}{{ social.url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]
   }
   </script>
 

@@ -9,7 +9,7 @@
         </h1>
         <div class="hero-socials">
           {% for social in site.data.social %}
-          <a href="{{ social.url }}" aria-label="{{ social.platform }}"><i class="{{ social.icon }}"></i></a>
+          <a href="{{ social.url }}" aria-label="{{ social.platform }}"{% if social.protected %} data-user="co" data-domain="hayvalley.de"{% endif %}><i class="{{ social.icon }}"></i></a>
           {% endfor %}
         </div>
         <a href="#about" class="hero-scroll-btn" aria-label="Scroll down">

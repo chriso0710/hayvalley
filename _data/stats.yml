@@ -1,15 +1,37 @@
-- icon: fas fa-face-smile
-  value: 256
-  label: "Happy Clients"
+- icon: fas fa-laptop-code
+  value: 25
+  suffix: "+"
+  label: "Years in IT"
 
-- icon: fas fa-trophy
-  value: 145
-  label: "Awards Won"
+- icon: fas fa-users
+  value: 280
+  label: "Healthcare Software Customers"
 
-- icon: fas fa-briefcase
-  value: 587
-  label: "Projects Done"
+- icon: fas fa-file-alt
+  value: 150000
+  suffix: "+"
+  label: "CMS Pages Managed"
 
-- icon: fas fa-mug-hot
-  value: 4500
-  label: "Coffee Cups"
+- icon: fas fa-gem
+  value: 12
+  suffix: "+"
+  label: "Years Ruby/Rails"
+
+- icon: fas fa-cloud
+  value: 16
+  suffix: "+"
+  label: "Years Cloud"
+
+- icon: fas fa-code-branch
+  value: 10
+  suffix: "+"
+  label: "Open Source Projects"
+
+- icon: fas fa-pen-fancy
+  value: 5
+  label: "Publications"
+
+- icon: fas fa-comments
+  value: 1000000
+  suffix: "+"
+  label: "Social Media Messages via APIs"

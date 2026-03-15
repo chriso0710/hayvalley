@@ -3,6 +3,16 @@
  */
 document.addEventListener('DOMContentLoaded', () => {
 
+  // Protected email
+  document.querySelectorAll('[data-user][data-domain]').forEach(el => {
+    const addr = el.dataset.user + '@' + el.dataset.domain;
+    if (el.tagName === 'A') {
+      el.href = 'mailto:' + addr;
+    } else {
+      el.textContent = addr;
+    }
+  });
+
   // Navbar scroll effect
   const navbar = document.getElementById('mainNav');
   window.addEventListener('scroll', () => {
@@ -61,7 +71,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // Typewriter headline
   const headlineEl = document.querySelector('.animated-headline');
   if (headlineEl) {
-    const words = JSON.parse(headlineEl.dataset.headlines);
+    const all = JSON.parse(headlineEl.dataset.headlines);
+    const first = all[0];
+    const rest = all.slice(1);
+    for (let i = rest.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [rest[i], rest[j]] = [rest[j], rest[i]]; }
+    const words = [first, ...rest];
     let wordIdx = 0, charIdx = words[0].length, deleting = true;
     const speed = { type: 100, delete: 50, pause: 2000 };
 

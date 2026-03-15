@@ -1,22 +1,28 @@
-title: "Personala"
-description: "Personal Portfolio Website"
+title: "HAYVALLEY"
+description: "Christian Ott – Software Developer, Consultant, Cloud Architect"
 url: "https://hayvalley.de"
 baseurl: ""
 
 # Personal Info
-name: "Alex Smith"
-role: "UI / UX Designer"
-tagline: "I Love To Design"
+name: "Christian Ott"
+tagline: "Code. Consult. Create."
 headlines:
-  - "Alex Smith"
+  - "Christian Ott"
   - "a Developer"
-  - "a Designer"
-about_text: "I'm a Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs."
-about_text_2: "My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way."
-email: "alex@example.com"
-phone: "+1 234 567 890"
-address: "Sydney, Australia"
-cv_file: "/assets/cv.pdf"
+  - "a Geek"
+  - "a Cyclist"
+  - "a Minimalist"
+  - "a Rails Expert"
+  - "a Cloud Architect"
+  - "a Remote Worker"
+  - "a Climate Advocate"
+  - "a REWORKer"
+  - "a Speaker"
+  - "a Consultant"
+email: "co@hayvalley.de"
+phone: ""
+address: "Heuweiler/Freiburg, Black Forest, Germany"
+cv_file: ""
 
 # Images
 hero_bg: "/assets/img/hero-bg.jpg"
@@ -28,33 +34,37 @@ contact_bg: "/assets/img/bg4.jpg"
 # Section headings (subtitle + title)
 sections:
   about:
-    subtitle: "About Me"
-    title: ""  # uses site.name by default
+    subtitle: "Who I Am"
+    title: ""
   resume:
-    subtitle: "Resume"
-    title: "Education & Experience"
+    subtitle: "Background"
+    title: "Where I've Been"
     education: "Education"
     experience: "Experience"
-    skills: "Skills"
+    skills: "Tech Stack"
   services:
-    subtitle: "Services"
-    title: "What I Do"
+    subtitle: "Expertise"
+    title: "How I Can Help"
   portfolio:
-    subtitle: "Portfolio"
-    title: "My Work"
+    subtitle: "Work"
+    title: "Built & Shipped"
     filter_all: "All"
     client_label: "Client"
-    task_label: "Task"
+    task_label: "Responsibilities"
     tech_label: "Tech"
+    duration_label: "Duration"
+  clients:
+    subtitle: "Trust"
+    title: "Companies I've Worked With"
   testimonials:
-    subtitle: "Testimonials"
-    title: "What People Say"
+    subtitle: "Feedback"
+    title: "What Clients Say"
   blog:
     subtitle: "Blog"
     title: "Latest Articles"
   contact:
-    subtitle: "Contact"
-    title: "Get In Touch"
+    subtitle: "Let's Talk"
+    title: "Start a Conversation"
     address_label: "Address"
     email_label: "Email"
     phone_label: "Phone"
@@ -68,12 +78,12 @@ sections:
 cv_button: "Download CV"
 
 # Footer
-footer_text: "All Rights Reserved."
+footer_text: "Crafted with &hearts; in the Black Forest."
 footer_links:
-  - title: "Impressum"
-    url: "/impressum/"
-  - title: "Datenschutz"
-    url: "/datenschutz/"
+  - title: "Legal Notice"
+    url: "/legal/"
+  - title: "Privacy Policy"
+    url: "/privacy/"
 
 # Display limits
 blog_limit: 4

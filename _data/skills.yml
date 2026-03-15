@@ -1,14 +1,14 @@
-- name: "HTML / CSS"
-  percent: 90
+- name: "Ruby / Rails"
+  percent: 95
 
 - name: "JavaScript"
-  percent: 80
-
-- name: "PHP / MySQL"
-  percent: 70
-
-- name: "WordPress"
   percent: 85
 
-- name: "Photoshop"
-  percent: 95
+- name: "Python"
+  percent: 70
+
+- name: "Cloud / DevOps"
+  percent: 90
+
+- name: "AI / LLM Integration"
+  percent: 80

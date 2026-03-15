@@ -1,11 +1,27 @@
-- name: "John Smith"
-  role: "CEO, Company Inc."
-  text: "Working with Alex was an incredible experience. The attention to detail and creative vision brought our project to life in ways we hadn't imagined. Highly recommended!"
+- name: "Fabian Hager"
+  role: "Digital Domain Lead, E.KUNDENSERVICE Netz GmbH, Landshut"
+  text: "Christian played various project roles and focused on tasks for the product KARLA with maximum competence. In technical conception, he acted as the sole mastermind (Backend, Frontend, Database, Deployment, Security, Testing, Automation). In both conception and implementation, we greatly benefited from his ability to effortlessly switch between the developer, architect, customer, and user perspectives – always getting straight to the point. For the PO and project management, his methodological and technical expertise was a real asset!"
 
-- name: "Sarah Johnson"
-  role: "Marketing Director"
-  text: "Alex delivered exceptional work on our website redesign. The user experience improvements led to a 40% increase in engagement. Truly talented designer."
+- name: "André Wehrhahn"
+  role: "Produktmanager, ESN EnergieSysteme Nord GmbH, Schwentinental"
+  text: "For one of our larger clients, we were looking for a highly experienced and technically skilled senior developer with strong consulting expertise. We are extremely satisfied to have started a very fruitful and relaxed, yet highly efficient collaboration with Christian. The agile project ran very smoothly across the entire team and was significantly strengthened by Christian's exceptional communication skills and his many years of technical experience."
 
-- name: "Michael Brown"
-  role: "Startup Founder"
-  text: "From concept to completion, Alex demonstrated outstanding professionalism and creativity. Our app's design has received numerous compliments from users."
+- name: "Peter Ellerau"
+  role: "Managing Director, HighCoordination GmbH, Radolfzell"
+  text: "Christian re-implemented our outdated project management and invoicing system based on the latest web technologies. Besides the professional development in terms of time, budget, and quality, his customer-oriented consulting stands out, as he designed an optimal and tailored solution for us. Moreover, the project was really fun – thank you for that!"
+
+- name: "Johannes Heimann"
+  role: "Managing Director, Carl Group, Hamburg"
+  text: "We have been working very well and trustfully together for years. Christian is well-versed in all the latest trends and topics in software development and DevOps. You can have great discussions with him about new ideas and their feasibility."
+
+- name: "Michael Niemeier"
+  role: "Marketing Manager, DNV GL SE, Essen"
+  text: "Christian is a calm, logically reasoning, and pleasant conversation partner who understands how to efficiently and effectively translate customer needs into technical/digital solutions."
+
+- name: "Christof Lippold"
+  role: "Managing Director, Lippold GmbH, Hamburg"
+  text: "Christian is motivated, curious, and enthusiastic. He constantly familiarizes himself with new technologies to offer them to his clients."
+
+- name: "Rainer Thiemann"
+  role: "Architect, TBR Thiemann Brose Rittich, Hamburg"
+  text: "Professional and objective. Thank you, great job, well done!"
