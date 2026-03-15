@@ -5,8 +5,8 @@
 
 /* ---- CSS Custom Properties ---- */
 :root {
-  --color-primary: #4a7c59;
-  --color-primary-dark: #3a6147;
+  --color-primary: #5a9c6a;
+  --color-primary-dark: #4a7c59;
   --color-bg: #1a1f16;
   --color-bg-alt: #232a1e;
   --color-text: #c8ccbf;
@@ -91,7 +91,7 @@ img {
 }
 
 .navbar-scrolled {
-  background: rgba(26, 31, 22, 0.95) !important;
+  background: color-mix(in srgb, var(--color-bg) 95%, transparent) !important;
   padding: 10px 0;
   backdrop-filter: blur(10px);
 }
@@ -469,7 +469,7 @@ img {
 .portfolio-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(74, 124, 89, 0.9);
+  background: color-mix(in srgb, var(--color-primary) 90%, transparent);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -780,7 +780,7 @@ img {
   }
 
   .navbar-collapse {
-    background: rgba(26, 31, 22, 0.98);
+    background: color-mix(in srgb, var(--color-bg) 98%, transparent);
     padding: 20px;
     margin-top: 10px;
     border-radius: 5px;
