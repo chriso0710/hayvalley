@@ -1,0 +1,9 @@
+[build]
+  command = "jekyll build"
+  publish = "_site"
+
+[[redirects]]
+  from = "/"
+  to = "/de/"
+  status = 302
+  conditions = {Language = ["de"]}
