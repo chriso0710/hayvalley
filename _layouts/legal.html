@@ -1,0 +1,22 @@
+{% assign lang = page.lang | default: "en" %}
+{% assign t = site.data[lang].strings %}
+{% assign d = site.data[lang] %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+{% include head.html %}
+<body>
+  {% include navbar.html %}
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1 class="section-title">{{ page.title }}</h1>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+</html>

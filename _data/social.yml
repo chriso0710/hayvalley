@@ -1,14 +1,19 @@
-- platform: github
-  url: "https://github.com/chriso0710"
-  icon: "fab fa-github"
-
 - platform: linkedin
   url: "https://www.linkedin.com/in/hayvalley-christian-ott/"
   icon: "fab fa-linkedin-in"
 
-- platform: bluesky
-  url: "https://bsky.app/profile/chrisohayvalley.bsky.social"
-  icon: "fas fa-cloud"
+- platform: email
+  url: "#email"
+  icon: "fas fa-envelope"
+  protected: true
+
+- platform: github
+  url: "https://github.com/chriso0710"
+  icon: "fab fa-github"
+
+# - platform: bluesky
+#   url: "https://bsky.app/profile/chrisohayvalley.bsky.social"
+#   icon: "fas fa-cloud"
 
 - platform: instagram
   url: "https://www.instagram.com/chrisohayvalley/"
@@ -17,8 +22,3 @@
 - platform: strava
   url: "https://www.strava.com/athletes/4877153"
   icon: "fab fa-strava"
-
-- platform: email
-  url: "#email"
-  icon: "fas fa-envelope"
-  protected: true

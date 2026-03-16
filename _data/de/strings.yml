@@ -47,14 +47,14 @@ blog:
   title: "Neueste Artikel"
 contact:
   subtitle: "Kontakt"
-  title: "Schreiben Sie mir"
+  title: "Schreib mir"
   address_label: "Adresse"
   email_label: "E-Mail"
   phone_label: "Telefon"
-  name_placeholder: "Ihr Name"
-  email_placeholder: "Ihre E-Mail"
+  name_placeholder: "Dein Name"
+  email_placeholder: "Deine E-Mail"
   subject_placeholder: "Betreff"
-  message_placeholder: "Ihre Nachricht"
+  message_placeholder: "Deine Nachricht"
   submit: "Nachricht senden"
 
 # Buttons
