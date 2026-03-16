@@ -129,7 +129,10 @@ img {
 }
 
 @supports (background-attachment: fixed) and (not (-webkit-touch-callout: none)) {
-  .hero-section {
+  .hero-section,
+  .numbers-section,
+  .testimonials-section,
+  .contact-section {
     background-attachment: fixed;
   }
 }
@@ -445,7 +448,6 @@ img {
 .numbers-section {
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   position: relative;
 }
 
@@ -627,7 +629,6 @@ img {
 .testimonials-section {
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   position: relative;
 }
 
@@ -784,7 +785,6 @@ img {
 .contact-section {
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   position: relative;
 }
 
