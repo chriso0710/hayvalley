@@ -12,7 +12,7 @@ cv_file: ""
 
 # Images
 hero_bg: "/assets/img/hero-bg.jpg"
-about_image: "/assets/img/hero.jpg"
+about_image: "/assets/img/co.jpg"
 numbers_bg: "/assets/img/bg2.jpg"
 testimonials_bg: "/assets/img/bg3.jpg"
 contact_bg: "/assets/img/bg4.jpg"

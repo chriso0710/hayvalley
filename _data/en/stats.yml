@@ -1,5 +1,5 @@
 - icon: fas fa-laptop-code
-  value: 25
+  value: 30
   suffix: "+"
   label: "Years in IT"
 
@@ -13,12 +13,12 @@
   label: "CMS Pages Managed"
 
 - icon: fas fa-gem
-  value: 12
+  value: 15
   suffix: "+"
   label: "Years Ruby/Rails"
 
 - icon: fas fa-cloud
-  value: 16
+  value: 17
   suffix: "+"
   label: "Years Cloud"
 
