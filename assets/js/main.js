@@ -1,10 +1,9 @@
 /**
  * Main JavaScript (minimal)
  */
-// Language redirect (once per session, only on English homepage)
+// Language redirect: German browser on English homepage, unless coming from own site
 if (document.documentElement.lang === 'en' && window.location.pathname === '/' &&
-    !sessionStorage.getItem('lang_redirected') && navigator.language.startsWith('de')) {
-  sessionStorage.setItem('lang_redirected', '1');
+    navigator.language.startsWith('de') && !document.referrer.includes(window.location.hostname)) {
   window.location.replace('/de/');
 }
 
