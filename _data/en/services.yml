@@ -1,0 +1,23 @@
+- icon: fas fa-gem
+  title: Software Development
+  description: "Full-stack web applications built to last. 12+ years with Ruby on Rails, backed by JavaScript and Python. Database design, APIs, testing, deployment — from first commit to production."
+
+- icon: fas fa-cloud
+  title: Cloud & DevOps
+  description: "Cloud migration, high-availability hosting, and infrastructure automation. AWS, Azure, Docker, Kubernetes, CI/CD — designed to scale and easy to operate."
+
+- icon: fas fa-shield-halved
+  title: Security
+  description: "Secure-by-design development with hands-on CISO experience. Security architecture, vulnerability assessments, forensics, and compliance — built into the process, not bolted on."
+
+- icon: fas fa-robot
+  title: AI & Automation
+  description: "LLM-powered applications, intelligent workflows, and chatbots. From API integration and MCP to local inference, n8n, and custom AI pipelines."
+
+- icon: fas fa-plug
+  title: API & Integration
+  description: "Connecting systems that need to talk. REST, GraphQL, OAuth, payment processing, social media APIs, messaging services — millions of transactions processed."
+
+- icon: fas fa-handshake
+  title: Consulting & Architecture
+  description: "Remote-first consulting for teams who need a senior perspective. Technical strategy, architecture decisions, code reviews, and hands-on problem-solving."

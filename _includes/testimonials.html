@@ -3,15 +3,15 @@
   <div class="container position-relative">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h6 class="section-subtitle">{{ site.sections.testimonials.subtitle }}</h6>
-        <h2 class="section-title">{{ site.sections.testimonials.title }}</h2>
+        <h6 class="section-subtitle">{{ t.testimonials.subtitle }}</h6>
+        <h2 class="section-title">{{ t.testimonials.title }}</h2>
       </div>
     </div>
     <div class="row mt-5 justify-content-center">
       <div class="col-lg-8">
         <div class="carousel testimonials-carousel">
           <div class="carousel-track">
-            {% for item in site.data.testimonials %}
+            {% for item in d.testimonials %}
             <div class="carousel-slide">
               <div class="testimonial-item text-center">
                 <i class="fas fa-quote-left testimonial-quote-icon"></i>

@@ -2,13 +2,14 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-4 text-center text-md-start">
-        <p>&copy; {{ 'now' | date: '%Y' }} {{ site.name }}. {{ site.footer_text }}</p>
+        <p>&copy; {{ 'now' | date: '%Y' }} {{ site.name }}. {{ t.footer_text }}</p>
       </div>
       <div class="col-md-4 text-center">
         <div class="footer-legal">
-          {% for link in site.footer_links %}
+          {% for link in t.footer_links %}
           <a href="{{ link.url }}">{{ link.title }}</a>
           {% endfor %}
+          <span class="footer-lang-switch">{% if lang == "de" %}<a href="{{ page.alternate_url | default: '/' }}">EN</a> | DE{% else %}EN | <a href="{{ page.alternate_url | default: '/de/' }}">DE</a>{% endif %}</span>
         </div>
       </div>
       <div class="col-md-4 text-center text-md-end">

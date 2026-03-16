@@ -3,19 +3,19 @@
     <div class="row align-items-center">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="about-image">
-          <img src="{{ site.about_image }}" alt="Portrait of {{ site.name }}, {{ site.data.about.role }}" class="img-fluid" loading="lazy">
+          <img src="{{ site.about_image }}" alt="Portrait of {{ site.name }}, {{ d.about.role }}" class="img-fluid" loading="lazy">
         </div>
       </div>
       <div class="col-lg-6">
         <div class="about-content">
-          <h6 class="section-subtitle">{{ site.sections.about.subtitle }}</h6>
-          <h2 class="section-title">{{ site.sections.about.title | default: site.name }}</h2>
-          <p class="about-role">{{ site.data.about.role }}</p>
-          {% for paragraph in site.data.about.paragraphs %}
+          <h6 class="section-subtitle">{{ t.about.subtitle }}</h6>
+          <h2 class="section-title">{{ t.about.title | default: site.name }}</h2>
+          <p class="about-role">{{ d.about.role }}</p>
+          {% for paragraph in d.about.paragraphs %}
           <p>{{ paragraph }}</p>
           {% endfor %}
           {% if site.cv_file != "" %}
-          <a href="{{ site.cv_file }}" class="btn btn-primary mt-3">{{ site.cv_button }}</a>
+          <a href="{{ site.cv_file }}" class="btn btn-primary mt-3">{{ t.cv_button }}</a>
           {% endif %}
         </div>
       </div>

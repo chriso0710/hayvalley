@@ -5,20 +5,6 @@ baseurl: ""
 
 # Personal Info
 name: "Christian Ott"
-tagline: "Code. Consult. Create."
-headlines:
-  - "Christian Ott"
-  - "a Developer"
-  - "a Geek"
-  - "a Cyclist"
-  - "a Minimalist"
-  - "a Rails Expert"
-  - "a Cloud Architect"
-  - "a Remote Worker"
-  - "a Climate Advocate"
-  - "a REWORKer"
-  - "a Speaker"
-  - "a Consultant"
 email: "co@hayvalley.de"
 phone: ""
 address: "Heuweiler/Freiburg, Black Forest, Germany"
@@ -30,60 +16,6 @@ about_image: "/assets/img/hero.jpg"
 numbers_bg: "/assets/img/bg2.jpg"
 testimonials_bg: "/assets/img/bg3.jpg"
 contact_bg: "/assets/img/bg4.jpg"
-
-# Section headings (subtitle + title)
-sections:
-  about:
-    subtitle: "Who I Am"
-    title: ""
-  resume:
-    subtitle: "Background"
-    title: "Where I've Been"
-    education: "Education"
-    experience: "Experience"
-    skills: "Tech Stack"
-  services:
-    subtitle: "Expertise"
-    title: "How I Can Help"
-  portfolio:
-    subtitle: "Work"
-    title: "Built & Shipped"
-    filter_all: "All"
-    client_label: "Client"
-    task_label: "Responsibilities"
-    tech_label: "Tech"
-    duration_label: "Duration"
-  clients:
-    subtitle: "Trust"
-    title: "Companies I've Worked With"
-  testimonials:
-    subtitle: "Feedback"
-    title: "What Clients Say"
-  blog:
-    subtitle: "Blog"
-    title: "Latest Articles"
-  contact:
-    subtitle: "Let's Talk"
-    title: "Start a Conversation"
-    address_label: "Address"
-    email_label: "Email"
-    phone_label: "Phone"
-    name_placeholder: "Your Name"
-    email_placeholder: "Your Email"
-    subject_placeholder: "Subject"
-    message_placeholder: "Your Message"
-    submit: "Send Message"
-
-# Button labels
-cv_button: "Download CV"
-
-# Footer
-footer_text: "Crafted with &hearts; in the Black Forest."
-footer_links:
-  - title: "Legal Notice"
-    url: "/legal/"
-  - title: "Privacy Policy"
-    url: "/privacy/"
 
 # Display limits
 blog_limit: 4
@@ -97,6 +29,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+include:
+  - _redirects
 
 exclude:
   - Gemfile

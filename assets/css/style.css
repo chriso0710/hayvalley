@@ -321,34 +321,60 @@ img {
 }
 
 /* ---- Skills ---- */
-.skill-name {
-  color: var(--color-text-light);
+.skills-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-group {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+}
+
+.skills-group-label {
+  color: var(--color-text-muted);
+  font-size: 13px;
   font-weight: 600;
-  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  min-width: 140px;
+  text-align: right;
+  flex-shrink: 0;
 }
 
-.skill-percent {
-  color: var(--color-primary);
-  font-size: 14px;
+.skills-group-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.progress {
-  height: 6px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 3px;
-  overflow: hidden;
+.skill-tag {
+  display: inline-block;
+  padding: 5px 14px;
+  font-size: 13px;
+  color: var(--color-text-light);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  transition: all var(--transition);
 }
 
-.progress-bar {
-  width: var(--skill-width, 0%);
-  background: var(--color-primary);
-  border-radius: 3px;
-  animation: skillFill 1.5s ease both;
+.skill-tag:hover {
+  border-color: var(--color-primary);
+  background: rgba(90, 156, 106, 0.1);
 }
 
-@keyframes skillFill {
-  from { width: 0; }
-  to { width: var(--skill-width, 0%); }
+@media (max-width: 575px) {
+  .skills-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .skills-group-label {
+    text-align: left;
+    min-width: auto;
+  }
 }
 
 /* ---- Services Section ---- */
@@ -377,6 +403,36 @@ img {
 .service-item h5 {
   font-size: 18px;
   margin-bottom: 15px;
+}
+
+/* ---- Quote Section ---- */
+.quote-section {
+  padding: 60px 0;
+  background: var(--color-bg);
+}
+
+.site-quote {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-quote p {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-style: italic;
+  color: var(--color-text-light);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.site-quote cite {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-style: normal;
+  color: var(--color-primary);
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 /* ---- Numbers Section ---- */
@@ -789,6 +845,14 @@ img {
 
 .footer-legal a:hover {
   color: var(--color-primary);
+}
+
+.footer-lang-switch {
+  margin-left: 10px;
+}
+
+.footer-lang-switch a {
+  margin: 0;
 }
 
 /* ---- Responsive ---- */

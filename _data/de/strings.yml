@@ -1,0 +1,74 @@
+# Hero
+tagline: "Code. Beratung. Kreation."
+headlines:
+  - "Christian Ott"
+  - "Entwickler"
+  - "Geek"
+  - "Radfahrer"
+  - "Minimalist"
+  - "Rails-Experte"
+  - "Cloud Architect"
+  - "Remote Worker"
+  - "Klimaschützer"
+  - "REWORKer"
+  - "Speaker"
+  - "Berater"
+hero_intro: "Ich bin"
+
+# Section headings
+about:
+  subtitle: "Über mich"
+  title: ""
+resume:
+  subtitle: "Werdegang"
+  title: "Stationen"
+  education: "Ausbildung"
+  experience: "Berufserfahrung"
+  skills: "Tech Stack"
+services:
+  subtitle: "Expertise"
+  title: "Wie ich helfen kann"
+portfolio:
+  subtitle: "Projekte"
+  title: "Gebaut & Geliefert"
+  filter_all: "Alle"
+  client_label: "Kunde"
+  task_label: "Aufgaben"
+  tech_label: "Technologie"
+  duration_label: "Dauer"
+clients:
+  subtitle: "Vertrauen"
+  title: "Unternehmen, mit denen ich gearbeitet habe"
+testimonials:
+  subtitle: "Feedback"
+  title: "Was Kunden sagen"
+blog:
+  subtitle: "Blog"
+  title: "Neueste Artikel"
+contact:
+  subtitle: "Kontakt"
+  title: "Schreiben Sie mir"
+  address_label: "Adresse"
+  email_label: "E-Mail"
+  phone_label: "Telefon"
+  name_placeholder: "Ihr Name"
+  email_placeholder: "Ihre E-Mail"
+  subject_placeholder: "Betreff"
+  message_placeholder: "Ihre Nachricht"
+  submit: "Nachricht senden"
+
+# Buttons
+cv_button: "Lebenslauf herunterladen"
+
+# Footer
+footer_text: "Mit &hearts; im Schwarzwald gebaut."
+footer_links:
+  - title: "Impressum"
+    url: "/de/impressum/"
+  - title: "Datenschutz"
+    url: "/de/datenschutz/"
+
+# 404
+not_found_title: "Seite nicht gefunden"
+not_found_text: "Die gesuchte Seite existiert nicht oder wurde verschoben."
+not_found_button: "Zur Startseite"

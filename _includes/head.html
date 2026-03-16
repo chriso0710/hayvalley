@@ -11,13 +11,24 @@
   <!-- Feed -->
   {% feed_meta %}
 
+  <!-- hreflang -->
+  {% if lang == "de" %}
+  <link rel="alternate" hreflang="de" href="{{ site.url }}{{ page.url }}" />
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.alternate_url | default: '/' }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.alternate_url | default: '/' }}" />
+  {% else %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}" />
+  <link rel="alternate" hreflang="de" href="{{ site.url }}{{ page.alternate_url | default: '/de/' }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
+  {% endif %}
+
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": {{ site.name | jsonify }},
-    "jobTitle": {{ site.data.about.role | jsonify }},
+    "jobTitle": {{ d.about.role | jsonify }},
     "url": {{ site.url | jsonify }},
     "address": {
       "@type": "PostalAddress",

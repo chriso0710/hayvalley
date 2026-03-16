@@ -1,0 +1,23 @@
+- icon: fas fa-gem
+  title: Software-Entwicklung
+  description: "Full-Stack-Webanwendungen, die halten. 12+ Jahre mit Ruby on Rails, ergänzt durch JavaScript und Python. Datenbankdesign, APIs, Testing, Deployment — vom ersten Commit bis zur Produktion."
+
+- icon: fas fa-cloud
+  title: Cloud & DevOps
+  description: "Cloud-Migration, hochverfügbares Hosting und Infrastruktur-Automatisierung. AWS, Azure, Docker, Kubernetes, CI/CD — skalierbar gebaut, einfach zu betreiben."
+
+- icon: fas fa-shield-halved
+  title: Security
+  description: "Secure-by-Design-Entwicklung mit praktischer CISO-Erfahrung. Sicherheitsarchitektur, Schwachstellenanalyse, Forensik und Compliance — von Anfang an integriert, nicht nachgerüstet."
+
+- icon: fas fa-robot
+  title: KI & Automatisierung
+  description: "LLM-basierte Anwendungen, intelligente Workflows und Chatbots. Von API-Integration und MCP bis zu lokaler Inferenz, n8n und individuellen KI-Pipelines."
+
+- icon: fas fa-plug
+  title: API & Integration
+  description: "Systeme verbinden, die miteinander sprechen müssen. REST, GraphQL, OAuth, Payment, Social Media APIs, Messaging-Dienste — Millionen verarbeitete Transaktionen."
+
+- icon: fas fa-handshake
+  title: Beratung & Architektur
+  description: "Remote-First-Beratung für Teams, die eine Senior-Perspektive brauchen. Technische Strategie, Architekturentscheidungen, Code Reviews und Hands-on-Problemlösung."

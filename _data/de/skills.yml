@@ -1,0 +1,50 @@
+- category: Sprachen
+  items:
+    - Ruby
+    - JavaScript
+    - Python
+    - SQL
+    - PHP
+
+- category: Frameworks
+  items:
+    - Rails
+    - Sinatra
+    - Bootstrap
+    - Jekyll
+
+- category: Cloud & DevOps
+  items:
+    - AWS
+    - Azure
+    - Docker
+    - Kubernetes
+    - Linux
+    - Heroku
+    - CI/CD
+    - Nginx
+
+- category: Datenbanken
+  items:
+    - PostgreSQL
+    - MySQL
+    - Redis
+    - SQLite
+
+- category: KI
+  items:
+    - LLM APIs
+    - MCP
+    - Langchain
+    - Local Inference
+    - n8n
+    - Flowise
+
+- category: APIs & Integration
+  items:
+    - REST
+    - GraphQL
+    - OAuth
+    - Social Media APIs
+    - Stripe
+    - Twilio

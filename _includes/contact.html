@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h6 class="section-subtitle">{{ site.sections.contact.subtitle }}</h6>
-        <h2 class="section-title">{{ site.sections.contact.title }}</h2>
+        <h6 class="section-subtitle">{{ t.contact.subtitle }}</h6>
+        <h2 class="section-title">{{ t.contact.title }}</h2>
       </div>
     </div>
     <div class="row mt-5">
@@ -12,14 +12,14 @@
           <div class="contact-info-item">
             <i class="fas fa-map-marker-alt"></i>
             <div>
-              <h6>{{ site.sections.contact.address_label }}</h6>
+              <h6>{{ t.contact.address_label }}</h6>
               <p>{{ site.address }}</p>
             </div>
           </div>
           <div class="contact-info-item">
             <i class="fas fa-envelope"></i>
             <div>
-              <h6>{{ site.sections.contact.email_label }}</h6>
+              <h6>{{ t.contact.email_label }}</h6>
               <p><span class="protected-email" data-user="co" data-domain="hayvalley.de"></span></p>
             </div>
           </div>
@@ -27,7 +27,7 @@
           <div class="contact-info-item">
             <i class="fas fa-phone"></i>
             <div>
-              <h6>{{ site.sections.contact.phone_label }}</h6>
+              <h6>{{ t.contact.phone_label }}</h6>
               <p>{{ site.phone }}</p>
             </div>
           </div>
@@ -42,19 +42,19 @@
           </p>
           <div class="row">
             <div class="col-md-6 mb-3">
-              <input type="text" name="name" class="form-control" placeholder="{{ site.sections.contact.name_placeholder }}" required>
+              <input type="text" name="name" class="form-control" placeholder="{{ t.contact.name_placeholder }}" required>
             </div>
             <div class="col-md-6 mb-3">
-              <input type="email" name="email" class="form-control" placeholder="{{ site.sections.contact.email_placeholder }}" required>
+              <input type="email" name="email" class="form-control" placeholder="{{ t.contact.email_placeholder }}" required>
             </div>
           </div>
           <div class="mb-3">
-            <input type="text" name="subject" class="form-control" placeholder="{{ site.sections.contact.subject_placeholder }}" required>
+            <input type="text" name="subject" class="form-control" placeholder="{{ t.contact.subject_placeholder }}" required>
           </div>
           <div class="mb-3">
-            <textarea name="message" class="form-control" rows="5" placeholder="{{ site.sections.contact.message_placeholder }}" required></textarea>
+            <textarea name="message" class="form-control" rows="5" placeholder="{{ t.contact.message_placeholder }}" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">{{ site.sections.contact.submit }}</button>
+          <button type="submit" class="btn btn-primary">{{ t.contact.submit }}</button>
         </form>
       </div>
     </div>

@@ -2,16 +2,16 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h6 class="section-subtitle">{{ site.sections.resume.subtitle }}</h6>
-        <h2 class="section-title">{{ site.sections.resume.title }}</h2>
+        <h6 class="section-subtitle">{{ t.resume.subtitle }}</h6>
+        <h2 class="section-title">{{ t.resume.title }}</h2>
       </div>
     </div>
     <div class="row mt-5">
       <!-- Education -->
       <div class="col-lg-6 mb-4 mb-lg-0">
-        <h4 class="resume-heading"><i class="fas fa-graduation-cap"></i> {{ site.sections.resume.education }}</h4>
+        <h4 class="resume-heading"><i class="fas fa-graduation-cap"></i> {{ t.resume.education }}</h4>
         <div class="resume-timeline">
-          {% for item in site.data.education %}
+          {% for item in d.education %}
           <div class="resume-item">
             <span class="resume-period">{{ item.period }}</span>
             <h5 class="resume-item-title">{{ item.title }}</h5>
@@ -23,34 +23,14 @@
       </div>
       <!-- Experience -->
       <div class="col-lg-6">
-        <h4 class="resume-heading"><i class="fas fa-briefcase"></i> {{ site.sections.resume.experience }}</h4>
+        <h4 class="resume-heading"><i class="fas fa-briefcase"></i> {{ t.resume.experience }}</h4>
         <div class="resume-timeline">
-          {% for item in site.data.experience %}
+          {% for item in d.experience %}
           <div class="resume-item">
             <span class="resume-period">{{ item.period }}</span>
             <h5 class="resume-item-title">{{ item.title }}</h5>
             <p class="resume-item-place">{{ item.company }}</p>
             <p>{{ item.description }}</p>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-
-    <!-- Skills -->
-    <div class="row mt-5">
-      <div class="col-lg-8 mx-auto">
-        <h4 class="resume-heading text-center mb-4"><i class="fas fa-bullseye"></i> {{ site.sections.resume.skills }}</h4>
-        <div class="skills-container">
-          {% for skill in site.data.skills %}
-          <div class="skill-item mb-3">
-            <div class="d-flex justify-content-between mb-1">
-              <span class="skill-name">{{ skill.name }}</span>
-              <span class="skill-percent">{{ skill.percent }}%</span>
-            </div>
-            <div class="progress">
-              <div class="progress-bar" style="--skill-width: {{ skill.percent }}%" role="progressbar" aria-valuenow="{{ skill.percent }}" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
           </div>
           {% endfor %}
         </div>

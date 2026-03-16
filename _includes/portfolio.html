@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h6 class="section-subtitle">{{ site.sections.portfolio.subtitle }}</h6>
-        <h2 class="section-title">{{ site.sections.portfolio.title }}</h2>
+        <h6 class="section-subtitle">{{ t.portfolio.subtitle }}</h6>
+        <h2 class="section-title">{{ t.portfolio.title }}</h2>
       </div>
     </div>
 
@@ -11,8 +11,8 @@
     <div class="row mt-4">
       <div class="col-12 text-center">
         <div class="portfolio-filter">
-          <button class="filter-btn active" data-filter="all">{{ site.sections.portfolio.filter_all }}</button>
-          {% assign categories = site.data.portfolio | map: "category" | uniq %}
+          <button class="filter-btn active" data-filter="all">{{ t.portfolio.filter_all }}</button>
+          {% assign categories = d.portfolio | map: "category" | uniq %}
           {% for cat in categories %}
           <button class="filter-btn" data-filter="{{ cat }}">{{ cat | capitalize }}</button>
           {% endfor %}
@@ -22,16 +22,16 @@
 
     <!-- Portfolio Grid -->
     <div class="row mt-4 portfolio-grid">
-      {% for item in site.data.portfolio %}
+      {% for item in d.portfolio %}
       <div class="col-md-6 mb-4 portfolio-item" data-category="{{ item.category }}">
         <div class="portfolio-card">
           <img src="{{ item.image }}" alt="{{ item.title }} — {{ item.category | capitalize }}" class="img-fluid" loading="lazy">
           <div class="portfolio-overlay">
             {% if item.description %}<p class="portfolio-overlay-desc">{{ item.description }}</p>{% endif %}
             <ul class="portfolio-details">
-              {% if item.client %}<li><span>{{ site.sections.portfolio.client_label }}:</span> {{ item.client }}</li>{% endif %}
-              {% if item.duration %}<li><span>{{ site.sections.portfolio.duration_label }}:</span> {{ item.duration }}</li>{% endif %}
-              {% if item.tech %}<li><span>{{ site.sections.portfolio.tech_label }}:</span> {{ item.tech }}</li>{% endif %}
+              {% if item.client %}<li><span>{{ t.portfolio.client_label }}:</span> {{ item.client }}</li>{% endif %}
+              {% if item.duration %}<li><span>{{ t.portfolio.duration_label }}:</span> {{ item.duration }}</li>{% endif %}
+              {% if item.tech %}<li><span>{{ t.portfolio.tech_label }}:</span> {{ item.tech }}</li>{% endif %}
             </ul>
           </div>
         </div>

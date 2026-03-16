@@ -1,0 +1,18 @@
+- title: Start
+  url: "/de/#home"
+- title: Über mich
+  url: "/de/#about"
+- title: Werdegang
+  url: "/de/#resume"
+- title: Expertise
+  url: "/de/#services"
+- title: Kunden
+  url: "/de/#clients"
+- title: Projekte
+  url: "/de/#portfolio"
+- title: Feedback
+  url: "/de/#testimonials"
+# - title: Blog
+#   url: "/de/#blog"
+- title: Kontakt
+  url: "/de/#contact"
