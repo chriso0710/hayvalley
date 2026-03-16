@@ -1,5 +1,5 @@
 - title: "KARLA Vertragsmonitoring"
-  category: "development"
+  category: "Entwicklung"
   image: "/assets/img/portfolio/karla.jpg"
   client: "E.ON / SH NETZ"
   task: "Leitung der Architektur und technischen Konzeption für Backend, Frontend, Datenbankdesign und Deployment-Workflows. Entwicklung, Security, Testing und Automatisierung."
@@ -8,7 +8,7 @@
   description: "E.ON benötigte ein System zur Nachverfolgung und Überwachung von Konzessionsverträgen (Strom, Gas, Wasser) und deren Pflichten. Tausende vertragliche Verpflichtungen werden täglich aggregiert und in benutzerspezifischen Dashboards visualisiert oder als PDFs exportiert."
 
 - title: "SendOnScreen Multi-Channel-Kommunikation"
-  category: "development"
+  category: "Entwicklung"
   image: "/assets/img/portfolio/sendonscreen.jpg"
   client: "Carl Group"
   task: "Konzept, Architektur, Lead Development (UI, Full Stack). Hosting, Betrieb, Schulungen, Support."
@@ -17,7 +17,7 @@
   description: "Cloud-basierte SaaS-Software für Teilnehmer-Engagement bei Konferenzen und Events. Interaktive Plattform zum Empfang und zur Präsentation von Publikumsnachrichten über Hashtags, SMS, WhatsApp und E-Mail – inklusive optionaler Foto- und Video-Inhalte. Mit Echtzeit-Redaktionsoberfläche zur Content-Moderation."
 
 - title: "WinCIDS Schulverwaltung"
-  category: "product"
+  category: "Produkt"
   image: "/assets/img/portfolio/wincids.jpg"
   client: "OTT BENDER PARTNER"
   task: "Entwicklung bis zur Marktreife, Produktverantwortung, Vertrieb, Projektmanagement, Teamleitung von bis zu 10 Mitarbeitern."
@@ -26,7 +26,7 @@
   description: "WinCIDS war eine marktführende Softwarelösung für Bildungszentren im Gesundheitswesen in Deutschland. Bis 2009 nutzten über 280 Schulen WinCIDS mit ca. 900 Lizenzen, darunter einige der größten deutschen Universitätskliniken für Gesundheitsberufe."
 
 - title: "Bechtle Microsoft World"
-  category: "development"
+  category: "Entwicklung"
   image: "/assets/img/portfolio/bechtle.jpg"
   client: "Bechtle"
   task: "Architektur, Full-Stack-Entwicklung, KI-Integration und Deployment mehrerer Event-Technologie-Module."
@@ -35,7 +35,7 @@
   description: "KI-gestützte Event-Technologie-Suite für eine der größten Microsoft-Partnerkonferenzen Europas. Umfasst einen MCP-basierten Event Navigator Chatbot, eine KI-Mediathek mit automatischen Talk-Zusammenfassungen via Whisper-Transkription, KI-generierte Mini-Podcasts mit geklonten Stimmen und Echtzeit-Publikumsfeedback via CrowdPulse. Für 2.000+ Teilnehmer pro Event."
 
 - title: "CrowdPulse Event-Feedback"
-  category: "product"
+  category: "Produkt"
   image: "/assets/img/portfolio/crowdpulse.jpg"
   client: "HAYVALLEY"
   task: "Komplette Produktentwicklung: Architektur, Full-Stack-Entwicklung, KI-Integration, Deployment und Betrieb."
@@ -44,7 +44,7 @@
   description: "Echtzeit-Feedback- und Analyseplattform für Events. Teilnehmer senden Reaktionen über einfache URLs, Administratoren erhalten KI-gestützte Zusammenfassungen und Live-Dashboards. Mit KI-Sicherheitsmoderation, interaktiven Timelines, WebSocket-Updates und Multi-Tenant-Organisationsverwaltung."
 
 - title: "LANXESS Website"
-  category: "consulting"
+  category: "Beratung"
   image: "/assets/img/portfolio/lanxess.jpg"
   client: "LANXESS, EDIT GmbH"
   task: "Beratung, Betrieb, Support und Security/Forensik. Leitete Kernkonzept und Strategie für die AWS-Cloud-Migration. Planung, Testing und Implementierung von globaler Verteilung, Hochverfügbarkeit und Skalierbarkeit mit AWS. Performance-Optimierung, Caching und Updates."
