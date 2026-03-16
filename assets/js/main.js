@@ -1,6 +1,13 @@
 /**
  * Main JavaScript (minimal)
  */
+// Language redirect (once per session, only on English homepage)
+if (document.documentElement.lang === 'en' && window.location.pathname === '/' &&
+    !sessionStorage.getItem('lang_redirected') && navigator.language.startsWith('de')) {
+  sessionStorage.setItem('lang_redirected', '1');
+  window.location.replace('/de/');
+}
+
 document.addEventListener('DOMContentLoaded', () => {
 
   // Protected email
