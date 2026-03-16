@@ -2,6 +2,7 @@ title: "HAYVALLEY"
 description: "Christian Ott – Software Developer, Consultant, Cloud Architect"
 url: "https://hayvalley.de"
 baseurl: ""
+og_image: "/assets/img/co.jpg"
 
 # Personal Info
 name: "Christian Ott"
