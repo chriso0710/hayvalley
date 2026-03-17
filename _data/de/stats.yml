@@ -27,9 +27,9 @@
   suffix: "+"
   label: "Open-Source-Projekte"
 
-- icon: fas fa-pen-fancy
-  value: 5
-  label: "Publikationen"
+- icon: fas fa-people-group
+  value: 10
+  label: "Teammitglieder geführt"
 
 - icon: fas fa-comments
   value: 1000000
