@@ -1,10 +1,10 @@
 - icon: fas fa-gem
   title: Software Development
-  description: "Full-stack web applications built to last. 12+ years with Ruby on Rails, backed by JavaScript and Python. Database design, APIs, testing, deployment — from first commit to production."
+  description: "Full-stack web applications built to last. 15+ years with Ruby on Rails, backed by JavaScript and Python. Database design, APIs, testing, deployment — from first commit to production."
 
 - icon: fas fa-cloud
   title: Cloud & DevOps
-  description: "Cloud migration, high-availability hosting, and infrastructure automation. AWS, Azure, Docker, Kubernetes, CI/CD — designed to scale and easy to operate."
+  description: "Cloud migration, high-availability hosting, and infrastructure automation. Docker, AWS, DigitalOcean, Hetzner, CI/CD — designed to scale and easy to operate."
 
 - icon: fas fa-shield-halved
   title: Security

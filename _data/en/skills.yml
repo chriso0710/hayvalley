@@ -15,10 +15,10 @@
 
 - category: Cloud & DevOps
   items:
-    - AWS
-    - Azure
     - Docker
-    - Kubernetes
+    - AWS
+    - DigitalOcean
+    - Hetzner
     - Linux
     - Heroku
     - CI/CD
