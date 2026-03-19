@@ -2,6 +2,7 @@
 
 .bp-hero {
   height: 100vh;
+  height: 100dvh;
   background-size: cover;
   background-position: center;
 }
@@ -45,5 +46,6 @@
 }
 
 @media (max-width: 576px) {
+  .bp-hero { height: 100dvh; }
   #bikepacking-map { height: 350px !important; }
 }
