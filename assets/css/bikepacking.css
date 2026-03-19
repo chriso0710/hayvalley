@@ -1,0 +1,49 @@
+/* Bikepacking — minimal custom CSS, rest is Bootstrap 5 */
+
+.bp-hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.bp-hero .hero-scroll-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  animation: bp-bounce 2s ease infinite;
+}
+
+.bp-hero .hero-scroll-btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+@keyframes bp-bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(10px); }
+  60% { transform: translateY(5px); }
+}
+
+.bp-card-hover {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.bp-card-hover:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 576px) {
+  #bikepacking-map { height: 350px !important; }
+}

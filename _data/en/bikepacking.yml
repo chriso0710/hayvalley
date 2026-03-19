@@ -1,0 +1,350 @@
+title: "Hi, I'm Christian. I ride bikes."
+subtitle: "Gravel, Road & MTB Tours across Europe"
+intro: "My collection of bikepacking tours, gravel events, and multi-day rides — from the Black Forest to the Atlas Mountains."
+hero_image: "/assets/img/bikepacking/tnr2022_2.jpg"
+about:
+  - "I grew up on the flat roads of Northern Germany — running, road cycling, and dreaming of mountains. Over 20 years ago I traded Hamburg for a small village near Freiburg, and I've been exploring the Black Forest and beyond ever since."
+  - "In 2018 I discovered gravel and bikepacking, and it changed everything. Now I spend my days building software and my weekends (and vacations) riding multi-day adventures and ultra events across Europe."
+  - "I try to avoid flying to my tours — getting there by train or bike is part of the journey. Father of two, minimalist at heart, and a Chiru titanium bikes ambassador since 2025."
+strava_url: "https://www.strava.com/athletes/4877153"
+instagram_url: "https://www.instagram.com/chrisohayvalley/"
+linkedin_url: "https://www.linkedin.com/in/hayvalley-christian-ott/"
+
+tours:
+  - name: "Basajaun"
+    year: 2023
+    country: "Spain"
+    start: "Vitoria"
+    type: "Gravel"
+    category: "Event"
+    url: "https://www.transiberica.club/basajaun/"
+    image: "/assets/img/bikepacking/basajaun_2023_1.jpg"
+    lat: 42.85
+    lng: -2.67
+
+  - name: "Transpyrenees"
+    year: 2024
+    country: "France, Spain"
+    start: "San Sebastián"
+    type: "Road"
+    category: "Event"
+    url: "https://www.transiberica.club/transpyrenees/"
+    image: "/assets/img/bikepacking/transpyrenees_2024_1.jpg"
+    lat: 43.32
+    lng: -1.98
+
+  - name: "Torino Nice Rallye"
+    year: 2019
+    country: "France, Italy"
+    start: "Torino"
+    type: "Gravel"
+    category: "Event"
+    url: "https://torino-nice.weebly.com"
+    image: "/assets/img/bikepacking/tnr2019_1.jpg"
+    credit: "Eirik"
+    lat: 45.07
+    lng: 7.69
+
+  - name: "Torino Nice Rallye"
+    year: 2022
+    country: "France, Italy"
+    start: "Torino"
+    type: "Gravel"
+    category: "Event"
+    url: "https://torino-nice.weebly.com"
+    image: "/assets/img/bikepacking/tnr2022_1.jpg"
+    lat: 45.09
+    lng: 7.72
+
+  - name: "Quantock / Exmoor / Westcountry"
+    year: 2019
+    country: "England"
+    start: "Taunton"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://bikepacking.com/routes/bikepacking-exmoor-quantock/"
+    image: "/assets/img/bikepacking/quantock_dartmoor_exmoor_2019_1.jpg"
+    lat: 51.02
+    lng: -3.10
+
+  - name: "TMV – Traversée du Massif des Vosges"
+    year: 2021
+    country: "France"
+    start: "Wissembourg"
+    type: "Gravel/MTB"
+    category: "DIY"
+    url: "https://bikepacking.com/routes/bikepacking-france-traversee-du-massif-vosgien/"
+    image: "/assets/img/bikepacking/tmv_2021_2.jpg"
+    lat: 49.04
+    lng: 7.95
+
+  - name: "Rennsteig"
+    year: 2023
+    country: "Germany"
+    start: "Hörschel"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://bikepacking.com/routes/rennsteig-express/"
+    image: "/assets/img/bikepacking/rennsteig_2023_1.jpg"
+    lat: 50.98
+    lng: 10.24
+
+  - name: "Tuscany Trail"
+    year: 2022
+    country: "Italy"
+    start: "Campiglia Marittima"
+    type: "Gravel"
+    category: "Event"
+    url: "https://www.tuscanytrail.it/en/"
+    image: "/assets/img/bikepacking/tuscany_trail_2022_1.jpg"
+    lat: 43.06
+    lng: 10.61
+
+  - name: "Seven Serpents Quickbite"
+    year: 2023
+    country: "Slovenia, Croatia, Italy"
+    start: "Ljubljana"
+    type: "Gravel"
+    category: "Event"
+    url: "https://www.seven-serpents.com/"
+    image: "/assets/img/bikepacking/seven_serpents_2023_1.jpg"
+    lat: 46.06
+    lng: 14.51
+
+  - name: "Eroica Gaiole"
+    year: 2021
+    country: "Italy"
+    start: "Gaiole in Chianti"
+    type: "Gravel"
+    category: "Event"
+    url: "https://eroica.cc/de/gaiole"
+    image: "/assets/img/bikepacking/eroica_2021_2.jpg"
+    lat: 43.47
+    lng: 11.43
+
+  - name: "Taunus Storm Chase"
+    year: 2024
+    country: "Germany"
+    start: "Runkel"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://bikepacking.com/routes/taunus-storm-chase/"
+    image: "/assets/img/bikepacking/taunus_2024_1.jpg"
+    lat: 50.41
+    lng: 8.15
+
+  - name: "Rhine, Wine & the Romans"
+    year: 2020
+    country: "Germany"
+    start: "Kottenforst"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://bikepacking.com/routes/rheintal/"
+    image: "/assets/img/bikepacking/rhine_wine_romans_2020_1.jpg"
+    lat: 50.68
+    lng: 7.08
+
+  - name: "Rhön Divide"
+    year: 2022
+    country: "Germany"
+    start: "Bad Hersfeld"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://www.rhoendivi.de"
+    image: "/assets/img/bikepacking/rhoen_divide_2022_1.jpg"
+    lat: 50.87
+    lng: 9.71
+
+  - name: "Route des Grandes Alpes"
+    year: 2022
+    country: "France"
+    start: "Thonon-les-Bains"
+    type: "Road"
+    category: "DIY"
+    url: "https://en.francevelotourisme.com/cycle-route/route-des-grandes-alpes-r-by-bike"
+    image: "/assets/img/bikepacking/rdga_2022_1.jpg"
+    credit: "Christoph"
+    lat: 46.37
+    lng: 6.48
+
+  - name: "GTJ – Grande Traversée du Jura"
+    year: 2023
+    country: "France"
+    start: "Montbéliard"
+    type: "Road"
+    category: "DIY"
+    url: "https://www.gtj.asso.fr/en/itineraires-et-activites/gtj-a-velo/"
+    image: "/assets/img/bikepacking/gtj_2023_1.jpg"
+    lat: 47.51
+    lng: 6.80
+
+  - name: "Bike Crossing Schwarzwald"
+    year: 2019
+    country: "Germany"
+    start: "Pforzheim"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://www.schwarzwald-tourismus.info/erleben/radfahren/mountainbike/bike-crossing"
+    image: "/assets/img/bikepacking/black_forest_crossing_2019_1.jpg"
+    lat: 48.89
+    lng: 8.70
+
+  - name: "Steppenwolf BAB"
+    year: 2023
+    country: "Germany"
+    start: "Bernau bei Berlin"
+    type: "Gravel"
+    category: "Event"
+    url: "https://steppenwolf-berlin.de/en/bab/"
+    image: "/assets/img/bikepacking/bab_2023_1.jpg"
+    lat: 52.68
+    lng: 13.59
+
+  - name: "Holy Gravel"
+    year: 2021
+    country: "Germany"
+    start: "Hamburg"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://holygravel.de"
+    image: "/assets/img/bikepacking/holy_gravel_2021_1.jpg"
+    lat: 53.55
+    lng: 9.99
+
+  - name: "Holland Island Hopping"
+    year: 2024
+    country: "Netherlands"
+    start: "Utrecht"
+    type: "Mixed"
+    category: "DIY"
+    image: "/assets/img/bikepacking/holland_touring_2024_1.jpg"
+    lat: 52.09
+    lng: 5.12
+
+  - name: "Sneak Peaks Expedition"
+    year: 2024
+    country: "Italy"
+    start: "Bolzano"
+    type: "MTB"
+    category: "Event"
+    url: "https://www.orbit360.cc/sneak-peaks"
+    image: "/assets/img/bikepacking/sneak_peaks_eric.jpg"
+    credit: "Eric"
+    lat: 46.50
+    lng: 11.35
+
+  - name: "El Piri"
+    year: 2025
+    country: "Spain"
+    start: "Girona"
+    type: "Gravel"
+    category: "Event"
+    url: "https://www.lesperitdelbikepacking.org/el-piri-info"
+    image: "/assets/img/bikepacking/elpiri.jpg"
+    lat: 41.98
+    lng: 2.82
+
+  - name: "Swiss Jura Explorer"
+    year: 2025
+    country: "Switzerland"
+    start: "Biel/Bienne"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://bikepacking.com/routes/swiss-jura-explorer/"
+    image: "/assets/img/bikepacking/swiss_jura_explorer.jpg"
+    lat: 47.14
+    lng: 7.25
+
+  - name: "Istraland"
+    year: 2025
+    country: "Croatia, Italy, Slovenia"
+    start: "Basovizza (Trieste)"
+    type: "Gravel"
+    category: "Event"
+    url: "https://www.istraland.cc/"
+    image: "/assets/img/bikepacking/istraland_.jpg"
+    credit: "@saramogorovic"
+    lat: 45.64
+    lng: 13.86
+
+  - name: "Berlin – Copenhagen"
+    year: 2025
+    country: "Germany, Denmark, Sweden"
+    start: "Berlin"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://bike-berlin-copenhagen.com/en/home/"
+    image: "/assets/img/bikepacking/berlin_kopenhagen.jpg"
+    lat: 52.52
+    lng: 13.41
+
+  - name: "Steppenwolf BUB Wildtrack"
+    year: 2025
+    country: "Germany"
+    start: "Berlin"
+    type: "MTB"
+    category: "Event"
+    url: "https://steppenwolf-berlin.de/en/bub/"
+    image: "/assets/img/bikepacking/steppenwolf_peter.jpg"
+    credit: "Peter"
+    lat: 52.54
+    lng: 13.44
+
+  - name: "Montañas Vacías"
+    year: 2025
+    country: "Spain"
+    start: "Teruel"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://montanasvacias.com/"
+    image: "/assets/img/bikepacking/montanas_vacias_2025.jpg"
+    lat: 40.35
+    lng: -1.11
+
+  - name: "Atlas Mountain Race"
+    year: 2026
+    country: "Morocco"
+    start: "Beni-Mellal"
+    type: "MTB"
+    category: "Event"
+    dnf: true
+    url: "https://www.themountainraces.cc/atlas-mountain-race"
+    image: "/assets/img/bikepacking/atlas_mountain_race_2026.jpg"
+    lat: 32.34
+    lng: -6.36
+
+  - name: "Rapha Pennine Rally"
+    year: 2024
+    country: "England, Scotland"
+    start: "Edinburgh"
+    type: "Gravel"
+    category: "DIY"
+    url: "https://de.events.rapha.cc/pennine-rally-24"
+    image: "/assets/img/bikepacking/rapha_pennine_rallye_2024_1.jpg"
+    lat: 55.95
+    lng: -3.19
+
+bucketlist:
+  - "Accursed Mountains"
+  - "Bohemian Border Bash"
+  - "Three Peaks"
+  - "Transiberica"
+  - "GB Divide"
+  - "North Coast 500"
+  - "Highland Trail 550"
+  - "The Hebridean Way"
+  - "The Wolf's Lair"
+  - "Veneto Trail"
+  - "Northcape"
+  - "Badlands Unplugged"
+  - "Iron Curtain Trail"
+  - "Supergrevet Wien–Berlin"
+  - "Trans Balkan Race"
+  - "Mother North"
+  - "Bright Midnight"
+  - "Westfjords Way"
+  - "Alps Divide"
+  - "Munich–Milano"
+  - "Gravel Birds"
+  - "European Divide Trail"
+  - "Taurus Mountain Race"
