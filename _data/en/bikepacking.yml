@@ -41,7 +41,6 @@ tours:
     category: "Event"
     url: "https://torino-nice.weebly.com"
     image: "/assets/img/bikepacking/tnr2019_1.jpg"
-    credit: "Eirik"
     lat: 45.07
     lng: 7.69
 
@@ -197,6 +196,7 @@ tours:
     category: "Event"
     url: "https://steppenwolf-berlin.de/en/bab/"
     image: "/assets/img/bikepacking/bab_2023_1.jpg"
+    credit: "@steppenwolf030"
     lat: 52.68
     lng: 13.59
 
@@ -310,6 +310,7 @@ tours:
     dnf: true
     url: "https://www.themountainraces.cc/atlas-mountain-race"
     image: "/assets/img/bikepacking/atlas_mountain_race_2026.jpg"
+    credit: "@mrenocristina"
     lat: 32.34
     lng: -6.36
 
