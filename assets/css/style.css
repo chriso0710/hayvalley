@@ -102,6 +102,16 @@ img {
   font-size: 24px;
   font-weight: 700;
   color: var(--color-text-light) !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 0;
+}
+
+.navbar-logo {
+  height: 32px;
+  width: auto;
+  transform: translateY(-2px);
 }
 
 .navbar-nav .nav-link {
