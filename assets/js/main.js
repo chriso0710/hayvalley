@@ -9,6 +9,33 @@ if (document.documentElement.lang === 'en' && window.location.pathname === '/' &
 
 document.addEventListener('DOMContentLoaded', () => {
 
+  // Theme toggle
+  const toggleBtn = document.querySelector('.theme-toggle');
+  if (toggleBtn) {
+    const icon = toggleBtn.querySelector('i');
+    function updateIcon() {
+      const isDark = document.documentElement.getAttribute('data-bs-theme') !== 'light';
+      icon.className = isDark ? 'fas fa-moon' : 'fas fa-sun';
+    }
+    updateIcon();
+
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-bs-theme') !== 'light';
+      const next = isDark ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      updateIcon();
+    });
+
+    window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', e => {
+      if (!localStorage.getItem('theme')) {
+        const next = e.matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-bs-theme', next);
+        updateIcon();
+      }
+    });
+  }
+
   // Protected email
   document.querySelectorAll('[data-user][data-domain]').forEach(el => {
     const addr = el.dataset.user + '@' + el.dataset.domain;

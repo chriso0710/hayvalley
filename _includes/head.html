@@ -53,4 +53,13 @@
 
   <!-- Custom CSS (must load after Bootstrap to override) -->
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+  <!-- FOUC prevention: apply theme before paint -->
+  <script>
+    (function() {
+      var t = localStorage.getItem('theme') ||
+              (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-bs-theme', t);
+    })();
+  </script>
 </head>
