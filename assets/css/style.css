@@ -741,6 +741,54 @@ img {
   opacity: 1;
 }
 
+.carousel-arrow {
+  position: absolute;
+  top: calc(50% - 20px);
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--color-text-light);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition), color var(--transition);
+  z-index: 2;
+}
+
+.carousel-arrow:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.carousel-arrow-prev {
+  left: -50px;
+}
+
+.carousel-arrow-next {
+  right: -50px;
+}
+
+@media (max-width: 991px) {
+  .carousel-arrow {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .carousel-arrow-prev {
+    left: -10px;
+  }
+
+  .carousel-arrow-next {
+    right: -10px;
+  }
+}
+
 /* ---- Blog Section ---- */
 .blog-card {
   background: var(--color-bg-alt);

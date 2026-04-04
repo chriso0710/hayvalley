@@ -118,6 +118,25 @@ document.addEventListener('DOMContentLoaded', () => {
       if (dot) slides[[...dotsEl.children].indexOf(dot)]?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
     });
 
+    const prevBtn = carousel.querySelector('.carousel-arrow-prev');
+    const nextBtn = carousel.querySelector('.carousel-arrow-next');
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        const activeIdx = [...dotsEl.children].findIndex(d => d.classList.contains('active'));
+        const target = slides[Math.max(0, activeIdx - 1)];
+        target?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        const activeIdx = [...dotsEl.children].findIndex(d => d.classList.contains('active'));
+        const target = slides[Math.min(slides.length - 1, activeIdx + 1)];
+        target?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+      });
+    }
+
     const dotObs = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (!entry.isIntersecting) return;
