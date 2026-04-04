@@ -27,6 +27,7 @@
   --color-white: #fff;
   --color-input-bg: rgba(255, 255, 255, 0.1);
   --color-input-border: rgba(255, 255, 255, 0.15);
+  --color-on-primary: #fff;
 }
 
 [data-bs-theme="light"] {
@@ -49,6 +50,7 @@
   --color-white: #1a1f16;
   --color-input-bg: rgba(0, 0, 0, 0.05);
   --color-input-border: rgba(0, 0, 0, 0.1);
+  --color-on-primary: #fff;
 }
 
 /* ---- Base ---- */
@@ -366,7 +368,7 @@ img {
   display: inline-block;
   padding: 3px 15px;
   background: var(--color-primary);
-  color: var(--color-text-light);
+  color: var(--color-on-primary);
   font-size: 12px;
   border-radius: 3px;
   margin-bottom: 10px;
@@ -556,7 +558,7 @@ img {
 .filter-btn.active {
   background: var(--color-primary);
   border-color: var(--color-primary);
-  color: var(--color-text-light);
+  color: var(--color-on-primary);
 }
 
 .portfolio-item {
