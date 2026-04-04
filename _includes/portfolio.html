@@ -26,6 +26,7 @@
       <div class="col-md-6 mb-4 portfolio-item" data-category="{{ item.category }}">
         <div class="portfolio-card">
           <img src="{{ item.image }}" alt="{{ item.title }} — {{ item.category | capitalize }}" class="img-fluid" loading="lazy">
+          <span class="portfolio-hint"><i class="fas fa-plus"></i></span>
           <div class="portfolio-overlay">
             {% if item.description %}<p class="portfolio-overlay-desc">{{ item.description }}</p>{% endif %}
             <ul class="portfolio-details">

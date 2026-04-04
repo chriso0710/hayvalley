@@ -626,9 +626,35 @@ img {
   overflow: visible;
 }
 
+.portfolio-hint {
+  display: none;
+}
+
 @media (min-width: 1200px) {
   .portfolio-card {
     overflow: hidden;
+    cursor: pointer;
+  }
+
+  .portfolio-hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 16px;
+    z-index: 1;
+    transition: opacity var(--transition);
+  }
+
+  .portfolio-card:hover .portfolio-hint {
+    opacity: 0;
   }
 
   .portfolio-overlay {
