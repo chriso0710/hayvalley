@@ -62,14 +62,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Active nav highlight
   const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-  const navObs = new IntersectionObserver(entries => {
-    entries.forEach(e => {
-      if (e.isIntersecting) navLinks.forEach(l =>
-        l.classList.toggle('active', l.getAttribute('href').endsWith(`#${e.target.id}`))
-      );
+  const path = location.pathname;
+  const isHome = path === '/' || path === '/de/' || path === '/de';
+  if (isHome) {
+    const navObs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) navLinks.forEach(l =>
+          l.classList.toggle('active', l.getAttribute('href').endsWith(`#${e.target.id}`))
+        );
+      });
+    }, { rootMargin: '-50% 0px -50% 0px' });
+    document.querySelectorAll('section[id]').forEach(s => navObs.observe(s));
+  } else {
+    navLinks.forEach(l => {
+      const href = l.getAttribute('href');
+      if (href && !href.includes('#') && path.startsWith(href)) l.classList.add('active');
     });
-  }, { rootMargin: '-50% 0px -50% 0px' });
-  document.querySelectorAll('section[id]').forEach(s => navObs.observe(s));
+  }
 
   // Counter animation
   const cObs = new IntersectionObserver(entries => {
@@ -86,18 +95,21 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { threshold: 0.5 });
   document.querySelectorAll('.counter').forEach(c => cObs.observe(c));
 
-  // Portfolio filter (event delegation)
-  const items = document.querySelectorAll('.portfolio-item');
-  document.querySelector('.portfolio-filter')?.addEventListener('click', e => {
-    const btn = e.target.closest('.filter-btn');
-    if (!btn) return;
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    const f = btn.dataset.filter;
-    items.forEach(item => {
-      const show = f === 'all' || item.dataset.category === f;
-      item.classList.toggle('hidden', !show);
-      setTimeout(() => { item.style.display = show ? '' : 'none'; }, show ? 0 : 300);
+  // Generic category filter (works for portfolio, AI tools, etc.)
+  document.querySelectorAll('[data-filter-group]').forEach(filterGroup => {
+    const targetSelector = filterGroup.dataset.filterGroup;
+    const items = document.querySelectorAll(targetSelector);
+    filterGroup.addEventListener('click', e => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      filterGroup.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      items.forEach(item => {
+        const show = f === 'all' || item.dataset.category === f;
+        item.classList.toggle('hidden', !show);
+        setTimeout(() => { item.style.display = show ? '' : 'none'; }, show ? 0 : 300);
+      });
     });
   });
 
@@ -151,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (prevBtn) {
       prevBtn.addEventListener('click', () => {
         const activeIdx = [...dotsEl.children].findIndex(d => d.classList.contains('active'));
-        const target = slides[Math.max(0, activeIdx - 1)];
+        const target = slides[(activeIdx - 1 + slides.length) % slides.length];
         target?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
       });
     }
@@ -159,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (nextBtn) {
       nextBtn.addEventListener('click', () => {
         const activeIdx = [...dotsEl.children].findIndex(d => d.classList.contains('active'));
-        const target = slides[Math.min(slides.length - 1, activeIdx + 1)];
+        const target = slides[(activeIdx + 1) % slides.length];
         target?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
       });
     }

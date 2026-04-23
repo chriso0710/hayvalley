@@ -6,6 +6,8 @@
   url: "/#resume"
 - title: Services
   url: "/#services"
+- title: AI
+  url: "/ai/"
 - title: Clients
   url: "/#clients"
 - title: Portfolio

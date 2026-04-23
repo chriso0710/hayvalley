@@ -32,7 +32,7 @@
   task: "Architecture, full-stack development, AI integration, and deployment of multiple event technology modules."
   tech: "Ruby on Rails, MCP, Azure OpenAI, Whisper, TTS, REST APIs, Docker"
   duration: "2 years"
-  description: "AI-powered event technology suite for one of Europe's largest Microsoft partner conferences. Includes an MCP-based Event Navigator Chatbot, an AI Mediathek with automated talk summaries via Whisper transcription, AI-generated mini podcasts with cloned voices, and real-time audience feedback via CrowdPulse. Serving 2,000+ participants per event."
+  description: "AI-powered event technology suite for one of Europe's largest Microsoft partner conferences. Includes an MCP-based Event Navigator AI Assistant, an AI Mediathek with automated talk summaries via Whisper transcription, AI-generated mini podcasts with cloned voices, and real-time audience feedback via CrowdPulse. Serving 2,000+ participants per event."
 
 - title: "CrowdPulse Event Feedback"
   category: "product"

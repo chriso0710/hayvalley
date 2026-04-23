@@ -1,6 +1,7 @@
 - icon: fas fa-gem
   title: Software Development
   description: "Full-stack web applications built to last. 15+ years with Ruby on Rails, backed by JavaScript and Python. Database design, APIs, testing, deployment — from first commit to production."
+  url: "/ai/"
 
 - icon: fas fa-cloud
   title: Cloud & DevOps
@@ -12,7 +13,8 @@
 
 - icon: fas fa-robot
   title: AI & Automation
-  description: "LLM-powered applications, intelligent workflows, and chatbots. From API integration and MCP to local inference, n8n, and custom AI pipelines."
+  description: "LLM-powered applications, intelligent workflows, and AI assistants. From API integration and MCP to local inference, n8n, and custom AI pipelines."
+  url: "/ai/"
 
 - icon: fas fa-plug
   title: API & Integration
@@ -21,3 +23,4 @@
 - icon: fas fa-handshake
   title: Consulting & Architecture
   description: "Remote-first consulting for teams that need a senior perspective. Technical strategy, architecture decisions, code reviews, and hands-on problem solving. I work AI-native with Claude Code and help teams adopt AI-powered development workflows."
+  url: "/ai/"

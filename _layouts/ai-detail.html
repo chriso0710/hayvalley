@@ -1,0 +1,65 @@
+{% assign lang = page.lang | default: "en" %}
+{% assign t = site.data[lang].strings %}
+{% assign d = site.data[lang] %}
+{% assign meta = site.data.ai_tools[page.slug] %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+{% include head.html %}
+<body>
+  {% include navbar.html %}
+
+  <section class="section ai-detail-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <!-- Breadcrumb -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{{ t.ai.url }}">{{ t.ai.title }}</a></li>
+              <li class="breadcrumb-item active">{{ page.title }}</li>
+            </ol>
+          </nav>
+
+          <div class="ai-card-icon"><i class="{{ meta.icon }}"></i></div>
+          {% assign filter_key = "filter_" | append: meta.category %}
+          <h6 class="section-subtitle">{{ t.ai[filter_key] }}</h6>
+          <h1 class="section-title">{{ page.title }}</h1>
+
+          {% if meta.tags %}
+          <div class="ai-tags mb-4">
+            {% for tag in meta.tags %}<span class="ai-tag">{{ tag }}</span>{% endfor %}
+          </div>
+          {% endif %}
+
+          {% if meta.product_url %}
+          <a href="{{ meta.product_url }}" class="btn btn-primary mb-4" target="_blank" rel="noopener">
+            <i class="fas fa-external-link-alt"></i> {{ t.ai.demo_button }}
+          </a>
+          {% endif %}
+
+          {% if meta.product_image %}
+          <img src="{{ meta.product_image }}" alt="{{ page.title }}" class="img-fluid rounded mb-4" loading="lazy">
+          {% endif %}
+
+          {% if meta.product_video %}
+          <div class="ratio ratio-16x9 mb-4">
+            <iframe src="{{ meta.product_video }}" allowfullscreen loading="lazy"></iframe>
+          </div>
+          {% endif %}
+
+          <div class="ai-content">
+            {{ content }}
+          </div>
+
+          <a href="{{ t.ai.url }}" class="btn btn-primary mt-4">
+            <i class="fas fa-arrow-left"></i> {{ t.ai.back_link }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+</html>

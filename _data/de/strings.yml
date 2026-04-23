@@ -1,5 +1,5 @@
 # Hero
-tagline: "More than just code."
+tagline: "Senior perspective. AI-powered."
 headlines:
   - "Christian Ott"
   - "Entwickler"
@@ -67,6 +67,19 @@ footer_links:
     url: "/de/impressum/"
   - title: "Datenschutz"
     url: "/de/datenschutz/"
+
+# AI Tools
+ai:
+  subtitle: "AI"
+  title: "Built & Driven by AI"
+  filter_all: "Alle"
+  filter_product: "Produkte"
+  filter_services: "Expertise"
+  nav_title: "AI"
+  back_link: "\u00dcbersicht"
+  demo_button: "Demo ansehen"
+  breadcrumb_home: "Start"
+  url: "/de/ai/"
 
 # 404
 not_found_title: "Seite nicht gefunden"

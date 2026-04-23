@@ -1,5 +1,5 @@
 # Hero
-tagline: "More than just code."
+tagline: "Senior perspective. AI-powered."
 headlines:
   - "Christian Ott"
   - "a Developer"
@@ -67,6 +67,19 @@ footer_links:
     url: "/legal/"
   - title: "Privacy Policy"
     url: "/privacy/"
+
+# AI Tools
+ai:
+  subtitle: "AI"
+  title: "Built & Driven by AI"
+  filter_all: "All"
+  filter_product: "Products"
+  filter_services: "Services"
+  nav_title: "AI"
+  back_link: "Overview"
+  demo_button: "View Demo"
+  breadcrumb_home: "Home"
+  url: "/ai/"
 
 # 404
 not_found_title: "Page Not Found"

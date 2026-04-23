@@ -29,7 +29,7 @@
 
 - icon: fas fa-people-group
   value: 10
-  label: "Team Members Led"
+  label: "Team Size"
 
 - icon: fas fa-comments
   value: 1000000

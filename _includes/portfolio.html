@@ -10,7 +10,7 @@
     <!-- Filter Buttons (dynamisch aus portfolio.yml Kategorien) -->
     <div class="row mt-4">
       <div class="col-12 text-center">
-        <div class="portfolio-filter">
+        <div class="portfolio-filter" data-filter-group=".portfolio-item">
           <button class="filter-btn active" data-filter="all">{{ t.portfolio.filter_all }}</button>
           {% assign categories = d.portfolio | map: "category" | uniq %}
           {% for cat in categories %}

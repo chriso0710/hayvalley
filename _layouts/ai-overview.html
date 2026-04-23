@@ -1,0 +1,76 @@
+{% assign lang = page.lang | default: "en" %}
+{% assign t = site.data[lang].strings %}
+{% assign d = site.data[lang] %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+{% include head.html %}
+<body>
+  {% include navbar.html %}
+
+  <section class="section ai-overview-section" style="background-image: url('{{ site.ai_bg }}');">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="section-title">{{ t.ai.title }}</h2>
+        </div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="row mt-4">
+        <div class="col-12 text-center">
+          <div class="ai-filter" data-filter-group=".ai-item">
+            <button class="filter-btn active" data-filter="all">{{ t.ai.filter_all }}</button>
+            {% assign tools = site.ai_tools | where: "lang", lang %}
+            {% assign cat_list = "" | split: "" %}
+            {% for tool in tools %}
+              {% assign meta = site.data.ai_tools[tool.slug] %}
+              {% unless cat_list contains meta.category %}
+                {% assign cat_list = cat_list | push: meta.category %}
+              {% endunless %}
+            {% endfor %}
+            {% for cat in cat_list %}
+            {% assign filter_key = "filter_" | append: cat %}
+            <button class="filter-btn" data-filter="{{ cat }}">{{ t.ai[filter_key] }}</button>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Grid -->
+      <div class="row mt-4 ai-grid">
+        {% assign all_tools = site.ai_tools | where: "lang", lang | sort: "slug" %}
+        {% assign knowhow = all_tools | where_exp: "t", "site.data.ai_tools[t.slug].category == 'services'" %}
+        {% assign tools_cat = all_tools | where_exp: "t", "site.data.ai_tools[t.slug].category == 'product'" %}
+        {% assign tools = knowhow | concat: tools_cat %}
+        {% for tool in tools %}
+        {% assign meta = site.data.ai_tools[tool.slug] %}
+        {% assign has_content = tool.content | strip | size | plus: 0 %}
+        <div class="col-md-6 col-lg-4 mb-4 ai-item" data-category="{{ meta.category }}">
+          {% if has_content > 0 %}
+          <a href="{{ tool.url }}" class="ai-card-link">
+          {% elsif meta.product_url %}
+          <a href="{{ meta.product_url }}" class="ai-card-link" target="_blank" rel="noopener">
+          {% endif %}
+            <div class="ai-card">
+              <div class="ai-card-icon">
+                <i class="{{ meta.icon }}"></i>
+              </div>
+              <div class="ai-card-body">
+                <h5>{{ tool.title }}</h5>
+                <p>{{ tool.description }}</p>
+                {% if has_content > 0 or meta.product_url %}<span class="ai-more">{% if lang == "de" %}mehr…{% else %}more…{% endif %}</span>{% endif %}
+              </div>
+            </div>
+          {% if has_content > 0 or meta.product_url %}
+          </a>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+</html>

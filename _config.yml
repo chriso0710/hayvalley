@@ -12,6 +12,7 @@ address: "Am Flissert 6, 79194 Heuweiler, Deutschland/Germany"
 cv_file: ""
 
 # Images
+ai_bg: "/assets/img/bg3.jpg"
 hero_bg: "/assets/img/hero-bg.jpg"
 about_image: "/assets/img/co.jpg"
 numbers_bg: "/assets/img/bg2.jpg"
@@ -39,4 +40,6 @@ exclude:
 # Collections
 collections:
   posts:
+    output: true
+  ai_tools:
     output: true

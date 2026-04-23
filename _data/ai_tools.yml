@@ -1,0 +1,50 @@
+crowdpulse:
+  icon: "fas fa-heart"
+  category: product
+  tags: [Rails, LLM, AI Assistant, Real-time, PostgreSQL, Docker, Hetzner DE]
+  product_url: "https://crowdpulse.hayvalley.de"
+
+event-navigator:
+  icon: "fas fa-compass"
+  category: product
+  tags: [MCP, LLM, Rails, AI Assistant, Real-time, Hetzner DE]
+
+ai-first-consulting:
+  icon: "fas fa-handshake"
+  category: services
+  tags: [Claude Code, LLM, Consulting, Team Enablement]
+
+spec-driven-development:
+  icon: "fas fa-clipboard-check"
+  category: services
+  tags: [Methodology, LLM, TDD, Specification]
+
+n8n-automations:
+  icon: "fas fa-gears"
+  category: services
+  tags: [n8n, Automation, LLM, Chat, Workflows, Hetzner DE]
+
+summarizer:
+  icon: "fas fa-file-lines"
+  category: product
+  tags: [Whisper, Speech-to-Text, LLM, Rails, Docker, Hetzner DE]
+
+sentiment-analyzer:
+  icon: "fas fa-face-smile"
+  category: product
+  tags: [LLM, Moderation, NLP, Rails, Real-time, Docker, Hetzner DE]
+
+local-llms:
+  icon: "fas fa-server"
+  category: services
+  tags: [Ollama, llama.cpp, vLLM, LLM, DSGVO, Self-Hosted]
+
+mcp:
+  icon: "fas fa-plug"
+  category: services
+  tags: [MCP, LLM, Integration, Open Standard]
+
+rag-knowledge-base:
+  icon: "fas fa-brain"
+  category: services
+  tags: [RAG, LLM, AI Assistant, Vector DB, Hetzner DE]
