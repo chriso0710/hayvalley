@@ -1,5 +1,15 @@
 /* Bikepacking — minimal custom CSS, rest is Bootstrap 5 */
 
+/* ---- CSS Custom Properties (single source of truth) ---- */
+.bp-page {
+  --bp-hero-btn: var(--color-white);
+  --bp-hero-btn-border: 3px solid var(--bp-hero-btn);
+  --bp-photo-credit-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  --bp-strava: #fc4c02;
+  --bp-linkedin: #0a66c2;
+  --bp-instagram: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
 .bp-hero {
   height: 100vh;
   height: 100dvh;
@@ -17,17 +27,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid #fff;
+  border: var(--bp-hero-btn-border);
   border-radius: 50%;
-  color: #fff;
+  color: var(--bp-hero-btn);
   font-size: 1rem;
   text-decoration: none;
   animation: bp-bounce 2s ease infinite;
 }
 
 .bp-hero .hero-scroll-btn:hover {
-  color: #fff;
-  border-color: #fff;
+  color: var(--bp-hero-btn);
+  border-color: var(--bp-hero-btn);
 }
 
 @keyframes bp-bounce {
@@ -43,6 +53,17 @@
 
 .bp-card-hover:hover {
   transform: translateY(-4px);
+}
+
+/* ---- Social buttons ---- */
+.bp-btn-strava { background: var(--bp-strava); }
+.bp-btn-instagram { background: var(--bp-instagram); }
+.bp-btn-linkedin { background: var(--bp-linkedin); }
+
+/* ---- Photo credit overlay ---- */
+.bp-photo-credit {
+  font-size: 0.75rem;
+  text-shadow: var(--bp-photo-credit-shadow);
 }
 
 @media (max-width: 576px) {

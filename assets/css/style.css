@@ -4,7 +4,8 @@
    ======================================== */
 
 /* ---- CSS Custom Properties ---- */
-:root {
+:root,
+[data-bs-theme="dark"] {
   --color-primary: #5a9c6a;
   --color-primary-dark: #4a7c59;
   --color-bg: #1a1f16;
