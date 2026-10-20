@@ -229,7 +229,7 @@ tours:
     category: "Event"
     url: "https://www.orbit360.cc/sneak-peaks"
     image: "/assets/img/bikepacking/sneak_peaks_eric.jpg"
-    credit: "Eric"
+    credit: "@ericonthebike"
     lat: 46.50
     lng: 11.35
 
@@ -301,6 +301,50 @@ tours:
     lat: 40.35
     lng: -1.11
 
+  - name: "Dammastock + Grosse Scheidegg Loop"
+    year: 2026
+    country: "Switzerland"
+    start: "Lucerne"
+    type: "Road"
+    category: "DIY"
+    image: "/assets/img/bikepacking/dammastock_2026_1.jpg"
+    credit: "@ericonthebike"
+    lat: 47.05
+    lng: 8.31
+
+  - name: "Mother North"
+    year: 2026
+    country: "Norway"
+    start: "Lillehammer"
+    type: "Gravel"
+    category: "Event"
+    url: "https://www.mother-north.com/"
+    image: "/assets/img/bikepacking/mother_north_2026_1.jpg"
+    credit: "@justas_juozaitis"
+    lat: 61.12
+    lng: 10.47
+
+  - name: "303Lucerne"
+    year: 2026
+    country: "Switzerland"
+    start: "Lucerne"
+    type: "MTB"
+    category: "DIY"
+    url: "https://303lucerne.ch/"
+    image: "/assets/img/bikepacking/303lucerne_2026_1.jpg"
+    lat: 47.06
+    lng: 8.29
+
+  - name: "Baltics, Finland & North Cape"
+    year: 2026
+    country: "Lithuania, Latvia, Estonia, Finland, Norway"
+    start: "Klaipėda"
+    type: "Mixed"
+    category: "DIY"
+    image: "/assets/img/bikepacking/baltics_north_cape_2026_1.jpg"
+    lat: 55.71
+    lng: 21.14
+
   - name: "Atlas Mountain Race"
     year: 2026
     country: "Morocco"
@@ -314,16 +358,16 @@ tours:
     lat: 32.34
     lng: -6.36
 
-  - name: "Rapha Pennine Rally"
+  - name: "Rapha Pennine Rally + Great North Trail"
     year: 2024
     country: "England, Scotland"
-    start: "Edinburgh"
+    start: "Derby"
     type: "Gravel"
     category: "DIY"
     url: "https://de.events.rapha.cc/pennine-rally-24"
     image: "/assets/img/bikepacking/rapha_pennine_rallye_2024_1.jpg"
-    lat: 55.95
-    lng: -3.19
+    lat: 52.92
+    lng: -1.48
 
 bucketlist:
   - "Accursed Mountains"
